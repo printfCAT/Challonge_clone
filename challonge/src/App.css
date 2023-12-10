@@ -1,0 +1,160 @@
+body, header, footer {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #272A33;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.fa-solid {
+  color: #454D60;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.fa-solid:hover {
+  color: white;
+}
+
+.button-container {
+  display: flex;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.button1, .button2 {
+  margin-left: 5px;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.material-symbols-outlined {
+  color: #454D60;
+}
+
+.button1 {
+  background-color: #454D60;
+}
+
+.button1:hover {
+  background-color: #303542;
+}
+
+.button2 {
+  margin-right: 40px;
+  background-color: #FF7324;
+}
+
+.button2:hover {
+  background-color: #F05700;
+}
+
+.intro {
+  min-height: 400px;
+  text-align: center;
+  padding-top: 160px;
+  background: linear-gradient(to left, #AC3B10, #311C18, #1B1516, #191111);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 36px;
+  color: white;
+  line-height: 0.2;
+}
+
+.intro p {
+  font-family: Inter;
+  font-size: 17px;
+  color: #B3B3B3;
+  padding-bottom: 20px;
+}
+
+.Tournament {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #FF7324;
+  padding: 10px 36px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+}
+
+.intro button.Tournament {
+  margin-bottom: 55px;
+}
+
+.Tournament:hover {
+  background-color: #F05700;
+}
+
+.intro img {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #272A33;
+  min-height: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h5 {
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+}
+
+footer p {
+  color: #5F6472;
+  font-family: Inter;
+  font-size: 13px;
+}
+
+footer p:hover {
+  color: #D8D2C8;
+}
+
+.column1 img {
+  width: 175px;
+  height: 40px;
+}
+
+.column1, .column2, .column3, .column4 {
+  flex: 1;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.socials a {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #5F6472;
+}
+
+.socials a:hover {
+  color: #B4B5B7;
+}
