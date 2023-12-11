@@ -28,6 +28,42 @@ function App() {
           <button className='Tournament'>Create Tournament</button>
           <img src={bracket} alt="bracket" />
         </div>
+        <div className='communities'>
+          <h1>Challonge Communities</h1>
+          <p>Host multiple tournaments, leagues and events for your loyal members.</p>
+          <button className='learn-more'>Learn more</button>
+        </div>
+        <div className='game-settings'>
+          <h1>Enjoy your game, we'll handle the <br />rest</h1>
+          <p>Challonge has a variety of settings that can fit your friday night game <br />with friends.</p>
+          <div className='diagonal-line'></div>
+          <div className='game-columns'>
+            <div className='types'>
+              <h3>Choose a Type</h3>
+              <p>Single Elimination</p>
+              <p>Double Elimination</p>
+              <p>Round Robin</p>
+              <p>Swiss</p>
+              <p>Free For All</p>
+              <p>Two Stage (group stage + Final <br />stage)</p>`
+            </div>
+            <div className='participants'>
+              <h3>Add Participants</h3>
+              <p>Enter individually or in <br />bulk</p>
+              <p>Invite by Email</p>
+              <p>Host a sign-up page</p>
+              <p>Require participants to <br />check in</p>
+            </div>
+            <div className='scores'>
+              <h3>Report Scores</h3>
+              <p>Advance match winners</p>
+              <p>Delegate reporting permissions</p>
+              <p>Email notifications as matches become <br />available</p>
+            </div>
+          </div>
+        </div>
+        <div className='conventions'>
+        </div>
       </body>
       <footer>
         <div className='column1'>
