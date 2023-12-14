@@ -102,6 +102,7 @@ body, header, footer {
   cursor: pointer;
   color: white;
   font-size: 17px;
+  font-weight: 700;
 }
 
 .intro button.Tournament {
@@ -145,6 +146,7 @@ body, header, footer {
   cursor: pointer;
   color: white;
   font-size: 17px;
+  font-weight: 700;
 }
 
 .learn-more:hover {
