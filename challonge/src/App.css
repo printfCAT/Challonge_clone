@@ -11,6 +11,7 @@ body, header, footer {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 999;
   width: 100%;
   height: 60px;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
@@ -176,7 +177,7 @@ body, header, footer {
   font-size: 17px; 
 }
 
-.diagonal-line {
+.game-settings .diagonal-line {
   width: 7%;
   height: 0;
   border-bottom: 4px solid #FF7324;
@@ -205,11 +206,152 @@ body, header, footer {
   font-size: 16px;
 }
 
+.conventions {
+  min-height: 1050px;
+}
+
+.convention-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.convention-images .top {
+  position: relative;
+  top: 260px;
+  box-shadow: 2px 2px 16px;
+}
+
+.convention-images .bottom {
+  margin-top: 100px;
+  margin-right: 190px;
+  box-shadow: 2px 2px 16px;
+}
+
+.convention-content {
+  display: flex;
+}
+
+.convention-info {
+  position: relative;
+  left: 150px;
+  top: 70px;
+}
+
+.convention-info h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  color: #222732;
+  font-size: 35px;
+}
+
+.convention-info p {
+  font-family: Inter;
+  color: #373F50;
+  font-size: 17px;
+}
+
+.convention-info .multiple-tournaments p,
+.convention-info .tickets p,
+.convention-info .event-activity p {
+  font-size: 15px;
+}
+
+.convention-info .multiple-tournaments h3 {
+  padding-top: 60px;
+  line-height: 0.5px;
+}
+
+.convention-info .tickets h3 {
+  padding-top: 60px;
+  line-height: 0.5px;
+}
+
+.convention-info .event-activity h3 {
+  padding-top: 60px;
+  line-height: 0.5px;
+}
+
+.convention-info h3 {
+  font-family: 'Chakra Petch', sans-serif;
+  color: #222732;
+}
+
+.convention-info .diagonal-line {
+  width: 15%;
+  height: 0;
+  border-bottom: 4px solid #FF7324;
+  padding-top: 40px;
+}
+
+.trustees {
+  text-align: center;
+}
+
+.trustees h2 {
+  margin-top: 230px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  color: #222732;
+}
+
+.logos img {
+  width: 150px;
+  height: 150px;
+  margin-right: 80px;
+  padding-bottom: 40px;
+}
+
+.logos img:last-child {
+  margin-right: 0;
+}
+
+.overview {
+  text-align: center;
+  background-color: #272A33;
+  min-height: 1100px;
+}
+
+.embed {
+  padding-top: 80px;
+}
+
+.conclusion h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 35px;
+  padding-top: 45px;
+}
+
+.conclusion p {
+  font-family: Inter;
+  color: #D8D8D8;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.signup {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #FF7324;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.signup:hover {
+  background-color: #F05700;
+}
+
 footer {
   background-color: #272A33;
   min-height: 320px;
   display: flex;
   justify-content: space-between;
+  border-top: solid 1px #5F6472;
 }
 
 footer h5 {

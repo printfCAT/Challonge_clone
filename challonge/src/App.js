@@ -2,6 +2,12 @@ import logo from './challonge-logo.png';
 import bracket from './bracket.png';
 import './App.css';
 import countUp from './countUp';
+import top from './top.png';
+import bottom from './bottom.png';
+import holberton from './holberton-logo.png';
+import alx from './alx-logo.png';
+import mcf from './mcf-logo.png';
+import room from './the-room.png';
 
 window.onload = function() {
   countUp('graduateCount', 80000, 85000, 30);
@@ -63,6 +69,48 @@ function App() {
           </div>
         </div>
         <div className='conventions'>
+          <div className='convention-content'>
+            <div className='convention-images'>
+              <img className='top' src={top} alt="top" />
+              <img className='bottom' src={bottom} alt="bottom" />
+            </div>
+            <div className='convention-info'>
+              <h1>Create event pages for your <br />conventions</h1>
+              <p>Got an event with multiple tournaments? We got you. Use Challonge's <br />Event feature</p>
+              <div className='diagonal-line'></div>
+              <div className='multiple-tournaments'>
+                <h3>Multiple tournaments in one</h3>
+                <p>Got a convention with multiple tournaments? Manage them all in just one <br />event page.</p>
+              </div>
+              <div className='tickets'>
+                <h3>Sell tickets</h3>
+                <p>From admission to tournament registration tickets.</p>
+              </div>
+              <div className='event-activity'>
+                <h3>Track your event activity</h3>
+                <p>Track sales, visits, and orders with your event management dashboard.</p>
+              </div>
+            </div>
+          </div>
+          <div className='trustees'>
+            <h2>Trusted by</h2>
+            <div className='logos'>
+              <img src={holberton} alt="holberton logo" />
+              <img src={mcf} alt="mastercard logo" />
+              <img src={alx} alt="alx logo" />
+              <img src={room} alt="the room logo" />
+            </div>
+          </div>
+        </div>
+        <div className="overview">
+          <div className="embed">
+            <iframe title="Challonge Overview" width="988" height="557" src="https://www.youtube.com/embed/iYz7p6Ic-yE" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div className="conclusion">
+            <h1>Providing the right tools for the <br />gaming community</h1>
+            <p>I aim to keep things simple, but there's plenty more to explore <br />on my challonge clone project.</p>
+            <button className="signup">Sign Up Free</button>
+          </div>
         </div>
       </body>
       <footer>
