@@ -1,0 +1,211 @@
+body, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.App-header {
+    background-color: #272A33;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+.fa-solid {
+    color: #454D60;
+    font-size: 20px;
+    margin-right: 15px;
+}
+  
+.fa-solid:hover {
+    color: white;
+}
+  
+.button-container {
+    display: flex;
+}
+  
+.login-container {
+    display: flex;
+    align-items: center;
+}
+  
+.button1, .button2 {
+    margin-left: 5px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+}
+  
+.material-symbols-outlined {
+    color: #454D60;
+}
+  
+.button1 {
+    background-color: #454D60;
+}
+  
+.button1:hover {
+    background-color: #303542;
+}
+  
+.button2 {
+    margin-right: 70px;
+    background-color: #FF7324;
+}
+  
+.button2:hover {
+    background-color: #F05700;
+}
+
+.intro {
+    min-height: 970px;
+    background: linear-gradient(to bottom, #272A33 40%, #FF7324);
+}
+
+.intro h1 {
+    padding-top: 220px;
+    margin-left: 60px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 36px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.intro p {
+    margin-left: 60px;
+    font-family: Inter;
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+    line-height: 1.5;
+    color: #B3B3B3;
+}
+
+.intro .start {
+    margin-left: 60px;
+    padding: 10px 33px;
+    background-color: #FF7324;
+}
+
+.intro .start:hover {
+    background-color: #F05700;
+    cursor: pointer;
+}
+
+.intro .find {
+    background-color: #454D60;
+}
+
+.intro .find:hover {
+    background-color: #303542;
+    cursor: pointer;
+}
+
+.intro button {
+    margin-right: 10px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 35px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.floating-section {
+    position: absolute;
+    top: 105%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-left: 45px;
+    min-height: 510px;
+    width: 94.5%;
+}
+
+.plan img {
+    width: 340px;
+    height: 340px;
+}
+
+.members img {
+    width: 300px;
+    height: 340px;
+}
+
+.stats img {
+    width: 300px;
+    height: 340px;
+}
+
+.plan img, .members img, .stats img {
+    padding-left: 30px;
+}
+
+.plan p, .members p, .stats p {
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222732;
+    line-height: 1.5;
+}
+
+.benefits {
+    min-height: 400px;
+}
+
+.benefits h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 40px;
+    color: #222732;
+    margin-top: 400px;
+}
+
+.diagonal-line {
+    border: solid 2px #FF7324;
+    width: 5%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 83%;
+}
+
+.column img {
+    width: 70px;
+    height: 70px;
+}
+
+.admins img, .brackets img, .support img {
+    margin-left: 20px;
+}
+
+.column li {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #333A4A;
+}
