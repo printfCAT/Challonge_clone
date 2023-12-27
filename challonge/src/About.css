@@ -178,7 +178,7 @@ body, header, footer {
 }
 
 .benefits {
-    min-height: 500px;
+    min-height: 490px;
 }
 
 .benefits h1 {
@@ -224,4 +224,67 @@ body, header, footer {
     font-size: 14px;
     line-height: 1.8;
     color: #333A4A;
+}
+
+.features {
+    min-height: 800px;
+}
+
+.features h1 {
+    color: #222732;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 1.2;
+}
+
+footer {
+    background-color: #272A33;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #5F6472;
+}
+  
+footer h5 {
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+}
+  
+footer p {
+    color: #5F6472;
+    font-family: Inter;
+    font-size: 13px;
+}
+  
+footer p:hover {
+    color: #D8D2C8;
+}
+  
+.column1 img {
+    width: 175px;
+    height: 40px;
+}
+  
+.column1, .column2, .column3, .column4 {
+    flex: 1;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.socials a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #5F6472;
+}
+  
+.socials a:hover {
+    color: #B4B5B7;
 }
