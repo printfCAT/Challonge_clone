@@ -134,8 +134,18 @@ body, header, footer {
     justify-content: space-between;
     background-color: #FFFFFF;
     margin-left: 45px;
-    min-height: 510px;
+    min-height: 530px;
     width: 94.5%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px;
+}
+
+.plan {
+    margin-left: 70px;
+}
+
+.stats {
+    margin-right: 70px;
 }
 
 .plan img {
@@ -155,6 +165,7 @@ body, header, footer {
 
 .plan img, .members img, .stats img {
     padding-left: 30px;
+    margin-top: 55px;
 }
 
 .plan p, .members p, .stats p {
@@ -167,7 +178,7 @@ body, header, footer {
 }
 
 .benefits {
-    min-height: 400px;
+    min-height: 500px;
 }
 
 .benefits h1 {
@@ -176,7 +187,7 @@ body, header, footer {
     font-size: 35px;
     margin-left: 40px;
     color: #222732;
-    margin-top: 400px;
+    margin-top: 500px;
 }
 
 .diagonal-line {
@@ -197,6 +208,11 @@ body, header, footer {
 .column img {
     width: 70px;
     height: 70px;
+}
+
+.column .members {
+    position: relative;
+    bottom: 50px;
 }
 
 .admins img, .brackets img, .support img {
