@@ -164,11 +164,13 @@ function About() {
         <div className='column2'>
           <h5>EXPLORE</h5>
           <a href='#null'><p>Search Tournaments</p></a>
+          <a href='#null'><p>Bracket Generator</p></a>
           <a href='#null'><p>Features</p></a>
           <a href='#null'><p>About</p></a>
         </div>
         <div className='column3'>
           <h5>RESOURCES</h5>
+          <a href='#null'><p>API</p></a>
           <a href='#null'><p>Terms</p></a>
           <a href='#null'><p>Privacy</p></a>
         </div>
