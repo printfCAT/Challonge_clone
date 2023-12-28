@@ -240,6 +240,184 @@ body, header, footer {
     line-height: 1.2;
 }
 
+.row1 img, .row2 img {
+    width: 360px;
+    height: 325px;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.row2 {
+    position: relative;
+    bottom: 140px;
+}
+
+.gamers, .athletes, .casuals, .enthusiasts, .patrons, .coworkers, .fans, .intramural {
+    position: relative;
+}
+  
+.gamers p {
+    position: absolute;
+    bottom: 114px;
+    left: 70%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.athletes p {
+    position: absolute;
+    bottom: 114px;
+    left: 67%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.casuals p {
+    position: absolute;
+    bottom: 114px;
+    left: 47%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.enthusiasts p {
+    position: absolute;
+    bottom: 114px;
+    left: 56%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.patrons p {
+    position: absolute;
+    bottom: 114px;
+    left: 70%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.coworkers p {
+    position: absolute;
+    bottom: 114px;
+    left: 57%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.fans p {
+    position: absolute;
+    bottom: 114px;
+    left: 79%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.intramural p {
+    position: absolute;
+    bottom: 114px;
+    left: 20%;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.background {
+    position: relative;
+    bottom: 114px;
+    min-height: 50px;
+    background: linear-gradient(to right bottom, transparent 50%, #FF8038D9 50%);
+}
+
+.background1 {
+    position: relative;
+    bottom: 114px;
+    min-height: 60px;
+    background: #FF8038D9;
+}
+
+.floating-heading {
+    position: relative;
+    bottom: 250px;
+}
+
+.skewed-section {
+    min-height: 100px;
+    background: linear-gradient(to right bottom, transparent 50%, #252830 50%);
+}
+
+.start-community {
+    background: #252830;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.start-community h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 0.2;
+    margin-left: 220px;
+    margin-top: 135px;
+}
+
+.start-community p {
+    color: #CCCCCC;
+    font-size: 14px;
+    font-family: Inter;
+    margin-left: 220px;
+}
+
+.start-community span {
+    color: #2BBFFF;
+}
+
+.start-community span:hover {
+    cursor: pointer;
+}
+
+.start-community button {
+    padding: 10px 33px;
+    background-color: #FF7324;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 35px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 135px;
+    margin-right: 220px;
+}
+
+.start-community a {
+    color: #FFFFFF;
+}
+
+.start-community button:hover {
+    background-color: #F05700;
+    cursor: pointer;
+}
+
 footer {
     background-color: #272A33;
     min-height: 320px;

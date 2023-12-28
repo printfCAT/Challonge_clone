@@ -6,6 +6,14 @@ import membersicon from './members-icon.png';
 import adminsicon from './admins-icon.png';
 import bracketsicon from './brackets-icon.png';
 import support from './support-icon.png';
+import gamers from './gamers.jpeg';
+import athletes from './athletes.jpeg';
+import casuals from './casuals.jpg';
+import enthusiasts from './enthusiasts.jpg';
+import patrons from './patrons.jpg';
+import coworkers from './coworkers.jpg';
+import fans from './fans.jpg';
+import intramural from './intramural.jpg';
 import './About.css';
 
 function About() {
@@ -83,6 +91,69 @@ function About() {
             </div>
             <div className="features">
                 <h1>Challonge Communities are perfect for <br />organizing like-minded:</h1>
+                <div className="row1">
+                    <div className="gamers">
+                        <img src={gamers} alt="gamers" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Gamers</p>
+                    </div>
+                    <div className="athletes">
+                        <img src={athletes} alt="athletes" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Athletes</p>
+                    </div>
+                    <div className="casuals">
+                        <img src={casuals} alt="casuals" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Casual Players</p>
+                    </div>
+                    <div className="enthusiasts">
+                        <img src={enthusiasts} alt="enthusiasts" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Enthusiasts</p>
+                    </div>
+                </div>
+                <div className="row2">
+                    <div className="patrons">
+                        <img src={patrons} alt="patrons" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Patrons</p>
+                    </div>
+                    <div className="coworkers">
+                        <img src={coworkers} alt="coworkers" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Co-workers</p>
+                    </div>
+                    <div className="fans">
+                        <img src={fans} alt="fans" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Fans</p>
+                    </div>
+                    <div className="intramural">
+                        <img src={intramural} alt="intramural" />
+                        <div className="background"></div>
+                        <div className="background1"></div>
+                        <p>Intramural Participants</p>
+                    </div>
+                </div>
+                <h1 className="floating-heading">and many more!</h1>
+                <div className="skewed-section"></div>
+                <div className="start-community">
+                    <div className="text">
+                        <h1>Start your Community Today!</h1>
+                        <p>Got any questions? Feel free to<span> reach us out!</span></p>
+                    </div>
+                    <div className="button">
+                        <button><a href="#null">Try it for free</a></button>
+                    </div>
+                </div>
             </div>
         </body>
         <footer>

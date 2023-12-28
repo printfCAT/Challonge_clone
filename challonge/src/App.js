@@ -31,7 +31,10 @@ function App() {
         <div className='intro'>
           <h1>Simplify Tournament Management</h1>
           <p>Thank you ALX Africa for allowing me to learn. ALX has produced more than <br /><b><span id="graduateCount">80000</span></b> graduates since 2021.</p>
-          <button className='Tournament'>Create Tournament</button>
+          <div className="buttons">
+            <button className='Tournament'><a href="#null">Create Tournament</a></button>
+            <button className='bracket'><a href="#null">Try Our Bracket Generator</a></button>
+          </div>
           <img src={bracket} alt="bracket" />
         </div>
         <div className='communities'>
