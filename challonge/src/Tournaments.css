@@ -136,7 +136,7 @@ ul {
 
 .content .diagonal-line {
     border: 2px solid #F35F21;
-    width: 25%;
+    width: 16%;
 }
 
 .content h2 {
@@ -145,7 +145,118 @@ ul {
     color: #FFFFFF;
 }
 
-.content input {}
+.content input {
+    display: block;
+    color: #D8D8D8;
+    padding: 14px 148px 14px 12px;
+    border: 1px solid #22222A;
+    border-radius: 3px;
+    background-color: #303540;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.content input:focus {
+    outline: none;
+}
+
+.content .fa-magnifying-glass {
+    font-size: 17px;
+    position: relative;
+    bottom: 31px;
+    left: 327px;
+    color: #95979C;
+}
+
+.row1 {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+
+.game1, .game2, .game3, .game4 {
+    border-radius: 5px;
+    background-color: #303540;
+    width: 250px;
+    height: 375px;
+}
+
+.game2, .game3, .game4 {
+    margin-left: 15px;
+}
+
+.game1 .game-pfp, .game1 .game-pfp, .game2 .game-pfp, .game3 .game-pfp, .game4 .game-pfp {
+    width: 100%;
+    height: 28%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.group-name {
+    display: flex;
+}
+
+.game1 .pfp, .game2 .pfp, .game3 .pfp, .game4 .pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.group-name .specific {
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.game1 ul, .game2 ul, .game3 ul, .game4 ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.game1 .fa-gamepad, .game1 .fa-users, .game1 .fa-calendar,
+.game2 .fa-gamepad, .game2 .fa-users, .game2 .fa-calendar,
+.game3 .fa-gamepad, .game3 .fa-users, .game3 .fa-calendar,
+.game4 .fa-gamepad, .game4 .fa-users, .game4 .fa-calendar {
+    font-size: 15px;
+    color: #959EA8;
+    padding-top: 15px;
+
+}
+
+.game1 p, .game1 span,
+.game2 p, .game2 span,
+.game3 p, .game3 span,
+.game4 p, .game4 span {
+    font-family: Inter;
+    font-size: 14px;
+    color: #95979C;
+    line-height: 0.8;
+    font-weight: 500;
+}
+
+.game1 button, .game2 button, .game3 button, .game4 button {
+    padding: 12px 94px;
+    border-radius: 50px;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #454D60;
+    margin-top: 20px;
+}
+
+.game1 button:hover, .game2 button:hover, .game3 button:hover, .game4 button:hover {
+    cursor: pointer;
+    background-color: #303542;
+    border: 1px solid #2c303c;
+}
+
+.game1 a, .game2 a, .game3 a, .game4 a {
+    color: #FFFFFF;
+}
 
 footer {
     background-color: #272A33;

@@ -1,5 +1,7 @@
 import logo from './challonge-logo.png';
 import './Tournaments.css';
+import mlegends from './mobile-legends.png';
+import cohort1 from './cohort-1.jpg';
 
 function Tournaments() {
     return (
@@ -30,20 +32,73 @@ function Tournaments() {
                 <div className="diagonal-line"></div>
                 <h2>Tournaments</h2>
                 <input className="events" type="text" placeholder="Search for tournaments" />
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <div className="games">
-                    <div className="game1">
-                        <ul>
-                            <li>
-                                <div className="group-name">
-                                    <p>Cohort #1</p>
-                                </div>
-                            </li>
-                            <li><i class="fa-solid fa-gamepad"></i></li>
-                            <li><i class="fa-solid fa-users"></i></li>
-                            <li><i class="fa-solid fa-calendar"></i></li>
-                            <p>Created at December 29, 2023</p>
-                            <button className="view">View</button>
-                        </ul>
+                    <div className="row1">
+                        <div className="game1">
+                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort1} alt="" />
+                                        <p className="specific">Cohort #1</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <p>Created at December 29, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game2">
+                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort1} alt="" />
+                                        <p className="specific">Cohort #1</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <p>Created at December 29, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game3">
+                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort1} alt="" />
+                                        <p className="specific">Cohort #1</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <p>Created at December 29, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game4">
+                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort1} alt="" />
+                                        <p className="specific">Cohort #1</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <p>Created at December 29, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
