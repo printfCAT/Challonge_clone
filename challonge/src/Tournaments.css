@@ -136,7 +136,7 @@ ul {
 
 .content .diagonal-line {
     border: 2px solid #F35F21;
-    width: 16%;
+    width: 6%;
 }
 
 .content h2 {
@@ -168,9 +168,12 @@ ul {
     color: #95979C;
 }
 
-.row1 {
+.row1, .row2 {
     display: flex;
     padding-top: 25px;
+}
+
+.row2 {
     padding-bottom: 200px;
 }
 

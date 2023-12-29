@@ -1,7 +1,20 @@
 import logo from './challonge-logo.png';
 import './Tournaments.css';
 import mlegends from './mobile-legends.png';
-import cohort1 from './cohort-1.jpg';
+import valorant from './valorant.jpg';
+import legends from './apex-legends.png';
+import ccs from './ccs.png';
+import pool from './pool.jpg';
+import fifa from './fifa24.jpg';
+import dota2 from './dota2.jpg';
+import cohort1 from './cohort1.jpg';
+import cohort2 from './cohort2.jpg';
+import cohort3 from './cohort3.png';
+import cohort4 from './cohort4.png';
+import cohort5 from './cohort5.jpg';
+import cohort6 from './cohort6.png';
+import cohort7 from './cohort7.png';
+import cohort8 from './cohort8.png';
 
 function Tournaments() {
     return (
@@ -52,49 +65,115 @@ function Tournaments() {
                             </ul>
                         </div>
                         <div className="game2">
-                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <img className="game-pfp" src={valorant} alt="valorant" />
                             <ul>
                                 <li>
                                     <div className="group-name">
-                                        <img className="pfp" src={cohort1} alt="" />
-                                        <p className="specific">Cohort #1</p>
+                                        <img className="pfp" src={cohort3} alt="" />
+                                        <p className="specific">CoHort #3</p>
                                     </div>
                                 </li>
-                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
-                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
-                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
-                                <p>Created at December 29, 2023</p>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Valorant</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>6 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>January 3, 2024</span></li>
+                                <p>Created at December 23, 2023</p>
                                 <button className="view"><a href="#null">View</a></button>
                             </ul>
                         </div>
                         <div className="game3">
-                            <img className="game-pfp" src={mlegends} alt="mobile legends" />
+                            <img className="game-pfp" src={legends} alt="apex legends" />
                             <ul>
                                 <li>
                                     <div className="group-name">
-                                        <img className="pfp" src={cohort1} alt="" />
-                                        <p className="specific">Cohort #1</p>
+                                        <img className="pfp" src={cohort7} alt="" />
+                                        <p className="specific">Cohort #7</p>
                                     </div>
                                 </li>
-                                <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
-                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
-                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Apex Legends</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>53 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 31, 2023</span></li>
                                 <p>Created at December 29, 2023</p>
                                 <button className="view"><a href="#null">View</a></button>
                             </ul>
                         </div>
                         <div className="game4">
+                            <img className="game-pfp" src={ccs} alt="candy crush" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort2} alt="" />
+                                        <p className="specific">COHORT #2</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Candy Crush Saga</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>0 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>July 20, 2023</span></li>
+                                <p>Created at July 20, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row2">
+                        <div className="game1">
+                            <img className="game-pfp" src={pool} alt="pool" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort8} alt="" />
+                                        <p className="specific">Co Hort #8</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Pool</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>4 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>January 1, 2023</span></li>
+                                <p>Created at October 13, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game2">
                             <img className="game-pfp" src={mlegends} alt="mobile legends" />
                             <ul>
                                 <li>
                                     <div className="group-name">
-                                        <img className="pfp" src={cohort1} alt="" />
-                                        <p className="specific">Cohort #1</p>
+                                        <img className="pfp" src={cohort5} alt="" />
+                                        <p className="specific">Co-hort #5</p>
                                     </div>
                                 </li>
                                 <li><i class="fa-solid fa-gamepad"></i><span>Mobile Legends: Bang Bang</span></li>
-                                <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
-                                <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>3 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 12, 2023</span></li>
+                                <p>Created at December 10, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game3">
+                            <img className="game-pfp" src={fifa} alt="ea fc24" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort6} alt="" />
+                                        <p className="specific">cohort #6</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>EA FC24</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>20 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>December 30, 2023</span></li>
+                                <p>Created at December 20, 2023</p>
+                                <button className="view"><a href="#null">View</a></button>
+                            </ul>
+                        </div>
+                        <div className="game4">
+                            <img className="game-pfp" src={dota2} alt="dota2" />
+                            <ul>
+                                <li>
+                                    <div className="group-name">
+                                        <img className="pfp" src={cohort4} alt="" />
+                                        <p className="specific">Cohort #4</p>
+                                    </div>
+                                </li>
+                                <li><i class="fa-solid fa-gamepad"></i><span>Dota 2</span></li>
+                                <li><i class="fa-solid fa-users"></i><span>10 participants</span></li>
+                                <li><i class="fa-solid fa-calendar"></i><span>January 9, 2024</span></li>
                                 <p>Created at December 29, 2023</p>
                                 <button className="view"><a href="#null">View</a></button>
                             </ul>
