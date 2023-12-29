@@ -44,7 +44,7 @@ function Tournaments() {
                 <h1>Search</h1>
                 <div className="diagonal-line"></div>
                 <h2>Tournaments</h2>
-                <input className="events" type="text" placeholder="Search for tournaments" />
+                <input className="game" type="text" placeholder="Search for tournaments" />
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <div className="games">
                     <div className="row1">

@@ -77,12 +77,196 @@ body {
     background-color: #0F131B;
 }
 
+.main-event {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 700px;
+}
+
+.menu {
+    width: 120px;
+    display: block;
+    position: sticky;
+    top: 90px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.menu .item1, .menu .item2, .menu .item3 {
+    padding: 16px 30px;
+    border-radius: 50px 0 0 50px;
+    border-right: 1px solid #383A42;
+}
+
+.menu .item1:hover, .menu .item2:hover, .menu .item3:hover {
+    cursor: pointer;
+}
+
+.menu .item1:hover, .menu .item3:hover {
+    background-color: #2B2F39;
+}
+
+.menu .item2 {
+    background-color: #393d4a;
+}
+
+.menu .fa-ticket {
+    color: #FFFFFF;
+}
+
+.menu .fa-trophy, .menu .fa-users {
+    color: #95979C;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.content h1 {
+    font-family: 'Chakra Petch';
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.content .diagonal-line {
+    border: 2px solid #F35F21;
+    width: 6%;
+}
+
+.content h2 {
+    font-family: 'Chakra Petch';
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.content input {
+    display: block;
+    color: #D8D8D8;
+    padding: 14px 148px 14px 12px;
+    border: 1px solid #22222A;
+    border-radius: 3px;
+    background-color: #303540;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.content input:focus {
+    outline: none;
+}
+
+.content .fa-magnifying-glass {
+    font-size: 17px;
+    position: relative;
+    bottom: 31px;
+    left: 327px;
+    color: #95979C;
+}
+
+.row1, .row2 {
+    display: flex;
+    padding-top: 25px;
+}
+
+.row2 {
+    padding-bottom: 200px;
+}
+
+.event1, .event2, .event3, .event4 {
+    border-radius: 5px;
+    background-color: #303540;
+    width: 250px;
+    height: 375px;
+}
+
+.event2, .event3, .event4 {
+    margin-left: 15px;
+}
+
+.event1 .game-pfp, .event2 .game-pfp, .event3 .game-pfp, .event4 .game-pfp {
+    width: 100%;
+    height: 28%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.group-name {
+    display: flex;
+}
+
+.event1 .pfp, .event2 .pfp, .event3 .pfp, .event4 .pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.group-name .specific {
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.event1 ul, .event2 ul, .event3 ul, .event4 ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.event1 .fa-location-dot, .event1 .fa-users, .event1 .fa-calendar,
+.event2 .fa-location-dot, .event2 .fa-users, .event2 .fa-calendar,
+.event3 .fa-location-dot, .event3 .fa-users, .event3 .fa-calendar,
+.event4 .fa-location-dot, .event4 .fa-users, .event4 .fa-calendar {
+    font-size: 15px;
+    color: #959EA8;
+    padding-top: 15px;
+
+}
+
+.event1 p, .event1 span,
+.event2 p, .event2 span,
+.event3 p, .event3 span,
+.event4 p, .event4 span {
+    font-family: Inter;
+    font-size: 14px;
+    color: #95979C;
+    line-height: 0.8;
+    font-weight: 500;
+}
+
+.event1 button, .event2 button, .event3 button, .event4 button {
+    padding: 12px 94px;
+    border-radius: 50px;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #454D60;
+    margin-top: 20px;
+}
+
+.event1 button:hover, .event2 button:hover, .event3 button:hover, .event4 button:hover {
+    cursor: pointer;
+    background-color: #303542;
+    border: 1px solid #2c303c;
+}
+
+.event1 a, .event2 a, .event3 a, .event4 a {
+    color: #FFFFFF;
+}
+
 footer {
     background-color: #272A33;
     min-height: 320px;
     display: flex;
     justify-content: space-between;
-    border-top: solid 1px #5F6472;
+    border-top: solid 1px #383A42;
 }
   
 footer h5 {
