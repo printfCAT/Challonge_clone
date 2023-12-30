@@ -1,0 +1,311 @@
+body, header, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #272A33;
+}
+
+.App-header {
+    background-color: #272A33;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+.fa-solid {
+    color: #454D60;
+    font-size: 20px;
+    margin-right: 15px;
+}
+  
+.fa-solid:hover {
+    color: white;
+}
+  
+.button-container {
+    display: flex;
+}
+  
+.login-container {
+    display: flex;
+    align-items: center;
+}
+  
+.button1, .button2 {
+    margin-left: 5px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+}
+  
+.material-symbols-outlined {
+    color: #454D60;
+}
+  
+.button1 {
+    background-color: #454D60;
+}
+  
+.button1:hover {
+    background-color: #303542;
+}
+  
+.button2 {
+    margin-right: 70px;
+    background-color: #FF7324;
+}
+  
+.button2:hover {
+    background-color: #F05700;
+}
+
+.empty-space {
+    height: 330px;
+    background-color: #0F131B;
+}
+
+.main-community {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 700px;
+}
+
+.menu {
+    width: 120px;
+    display: block;
+    position: sticky;
+    top: 90px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.menu .item1, .menu .item2, .menu .item3 {
+    padding: 16px 30px;
+    border-radius: 50px 0 0 50px;
+    border-right: 1px solid #383A42;
+}
+
+.menu .item1:hover, .menu .item2:hover, .menu .item3:hover {
+    cursor: pointer;
+}
+
+.menu .item1:hover, .menu .item2:hover {
+    background-color: #2B2F39;
+}
+
+.menu .item3 {
+    background-color: #393d4a;
+}
+
+.menu .fa-users {
+    color: #FFFFFF;
+}
+
+.menu .fa-trophy, .menu .fa-ticket {
+    color: #95979C;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content {
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.content h1 {
+    font-family: 'Chakra Petch';
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.content .diagonal-line {
+    border: 2px solid #F35F21;
+    width: 6%;
+}
+
+.content h2 {
+    font-family: 'Chakra Petch';
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.content input {
+    display: block;
+    color: #D8D8D8;
+    padding: 14px 148px 14px 12px;
+    border: 1px solid #22222A;
+    border-radius: 3px;
+    background-color: #303540;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.content input:focus {
+    outline: none;
+}
+
+.content .fa-magnifying-glass {
+    font-size: 17px;
+    position: relative;
+    bottom: 31px;
+    left: 327px;
+    color: #95979C;
+}
+
+.row1, .row2 {
+    display: flex;
+    padding-top: 25px;
+}
+
+.row2 {
+    padding-bottom: 200px;
+}
+
+.community1, .community2, .community3, .community4 {
+    border-radius: 5px;
+    background-color: #303540;
+    width: 250px;
+    height: 300px;
+}
+
+.community2, .community3, .community4 {
+    margin-left: 15px;
+}
+
+.community1 .game-pfp, .community2 .game-pfp, .community3 .game-pfp, .community4 .game-pfp {
+    width: 100%;
+    height: 28%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.group-name {
+    display: flex;
+}
+
+.community1 .pfp, .community2 .pfp, .community3 .pfp, .community4 .pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.group-name .specific {
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.community1 ul, .community2 ul, .community3 ul, .community4 ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.community1 .fa-location-dot, .community1 .fa-users, .community1 .fa-calendar,
+.community2 .fa-location-dot, .community2 .fa-users, .community2 .fa-calendar,
+.community3 .fa-location-dot, .community3 .fa-users, .community3 .fa-calendar,
+.community4 .fa-location-dot, .community4 .fa-users, .community4 .fa-calendar {
+    font-size: 15px;
+    color: #959EA8;
+    padding-top: 15px;
+
+}
+
+.community1 p, .community1 span,
+.community2 p, .community2 span,
+.community3 p, .community3 span,
+.community4 p, .community4 span {
+    font-family: Inter;
+    font-size: 14px;
+    color: #95979C;
+    line-height: 0.8;
+    font-weight: 500;
+}
+
+.community1 button, .community2 button, .community3 button, .community4 button {
+    padding: 12px 94px;
+    border-radius: 50px;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #454D60;
+    margin-top: 40px;
+}
+
+.community1 button:hover, .community2 button:hover, .community3 button:hover, .community4 button:hover {
+    cursor: pointer;
+    background-color: #303542;
+    border: 1px solid #2c303c;
+}
+
+.community1 a, .community2 a, .community3 a, .community4 a {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #272A33;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #383A42;
+}
+  
+footer h5 {
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+}
+  
+footer p {
+    color: #5F6472;
+    font-family: Inter;
+    font-size: 13px;
+}
+  
+footer p:hover {
+    color: #D8D2C8;
+}
+  
+.column1 img {
+    width: 175px;
+    height: 40px;
+}
+  
+.column1, .column2, .column3, .column4 {
+    flex: 1;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.socials a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #5F6472;
+}
+  
+.socials a:hover {
+    color: #B4B5B7;
+}
