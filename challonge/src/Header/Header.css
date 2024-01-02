@@ -1,0 +1,69 @@
+body, header, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-header {
+    background-color: #272A33;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+  }
+  
+  .fa-solid {
+    color: #454D60;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  .fa-solid:hover {
+    color: white;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button1, .button2 {
+    margin-left: 5px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+  }
+  
+  .material-symbols-outlined {
+    color: #454D60;
+  }
+  
+  .button1 {
+    background-color: #454D60;
+  }
+  
+  .button1:hover {
+    background-color: #303542;
+  }
+  
+  .button2 {
+    margin-right: 40px;
+    background-color: #FF7324;
+  }
+  
+  .button2:hover {
+    background-color: #F05700;
+  }

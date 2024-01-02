@@ -1,0 +1,53 @@
+body, header, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #272A33;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #383A42;
+  }
+  
+  footer h5 {
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+  }
+  
+  footer p {
+    color: #5F6472;
+    font-family: Inter;
+    font-size: 13px;
+  }
+  
+  footer p:hover {
+    color: #D8D2C8;
+  }
+  
+  .column1 img {
+    width: 175px;
+    height: 40px;
+  }
+  
+  .column1, .column2, .column3, .column4 {
+    flex: 1;
+    padding-top: 35px;
+    padding-left: 35px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .socials a {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #5F6472;
+  }
+  
+  .socials a:hover {
+    color: #B4B5B7;
+  }
