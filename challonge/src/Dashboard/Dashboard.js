@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import bracket from '../assets/bracket.png';
 import './Dashboard.css';
 import countUp from './countUp';
@@ -19,15 +20,15 @@ function Dashboard() {
           <h1>Simplify Tournament Management</h1>
           <p>Thank you ALX Africa for allowing me to learn. ALX has produced more than <br /><b><span id="graduateCount">80000</span></b> graduates since 2021.</p>
           <div className="buttons">
-            <button className='Tournament'><a href="#null">Create Tournament</a></button>
-            <button className='bracket'><a href="#null">Try Our Bracket Generator</a></button>
+            <button className='Tournament'><Link to="/comingsoon">Create Tournament</Link></button>
+            <button className='bracket'><Link to="/comingsoon">Try Our Bracket Generator</Link></button>
           </div>
           <img src={bracket} alt="bracket" />
         </div>
         <div className='communities'>
           <h1>Challonge Communities</h1>
           <p>Host multiple tournaments, leagues and events for your loyal members.</p>
-          <button className='learn-more'><a href="null">Learn more</a></button>
+          <button className='learn-more'><Link to="/about">Learn more</Link></button>
         </div>
         <div className='game-settings'>
           <h1>Enjoy your game, we'll handle the <br />rest</h1>
@@ -99,7 +100,7 @@ function Dashboard() {
           <div className="conclusion">
             <h1>Providing the right tools for the <br />gaming community</h1>
             <p>I aim to keep things simple, but there's plenty more to explore <br />on my challonge clone project.</p>
-            <button className="signup"><a href="#null">Sign Up Free</a></button>
+            <button className="signup"><Link to="/signup">Sign Up Free</Link></button>
           </div>
         </div>
       </body></>

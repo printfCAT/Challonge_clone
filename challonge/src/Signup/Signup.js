@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Signup.css';
 
 function Signup() {
@@ -26,7 +27,7 @@ function Signup() {
               <label for="promotion">Send me occasional product updates and info about major tournaments.</label>
             </div>
             <div className='diagonal-line'></div>
-            <button className="signup-button"><a href="#null">Create an account</a></button>
+            <button className="signup-button"><Link to="/login">Create an account</Link></button>
         </div>
       </body></>
     )

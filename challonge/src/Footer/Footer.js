@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/challonge-logo.png';
 import './Footer.css';
 
@@ -5,32 +6,32 @@ function Footer() {
     return (
         <><footer>
         <div className='column1'>
-          <a href='#null'><img src={logo} alt="logo" /></a>
+          <Link to='/'><img src={logo} alt="logo" /></Link>
           <p>&copy; 2023 Challonge, LLC</p>
         </div>
         <div className='column2'>
           <h5>EXPLORE</h5>
-          <a href='#null'><p>Search Tournaments</p></a>
-          <a href='#null'><p>Bracket Generator</p></a>
-          <a href='#null'><p>Features</p></a>
-          <a href='#null'><p>About</p></a>
+          <Link to='/tournaments'><p>Search Tournaments</p></Link>
+          <Link to='/comingsoon'><p>Bracket Generator</p></Link>
+          <Link to='/comingsoon'><p>Features</p></Link>
+          <Link to='/comingsoon'><p>About</p></Link>
         </div>
         <div className='column3'>
           <h5>RESOURCES</h5>
-          <a href='#null'><p>API</p></a>
-          <a href='#null'><p>Terms</p></a>
-          <a href='#null'><p>Privacy</p></a>
+          <a href='https://api.challonge.com/v1' target='_blank' rel='noopener noreferrer'><p>API</p></a>
+          <a href='https://challonge.com/terms_of_service' target='_blank' rel='noopener noreferrer'><p>Terms</p></a>
+          <a href='https://challonge.com/privacy_policy' target='_blank' rel='noopener noreferrer'><p>Privacy</p></a>
         </div>
         <div className='column4'>
           <h5>GET IN TOUCH</h5>
           <div className='socials'>
-            <a href='#null'><i className="fa-brands fa-facebook"></i></a>
-            <a href='#null'><i className="fa-brands fa-twitter"></i></a>
-            <a href='#null'><i className="fa-brands fa-youtube"></i></a>
+            <a href='https://www.facebook.com/terrence.wilbur/' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-facebook"></i></a>
+            <a href='https://twitter.com/CliffManyo' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-twitter"></i></a>
+            <a href='https://www.youtube.com/@CliffManyo' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-youtube"></i></a>
           </div>
-          <a href='#null'><p>Partners</p></a>
-          <a href='#null'><p>Contact</p></a>
-          <a href='#null'><p>Blog</p></a>
+          <Link to='/comingsoon'><p>Partners</p></Link>
+          <Link to='/comingsoon'><p>Contact</p></Link>
+          <Link to='/comingsoon'><p>Blog</p></Link>
         </div>
       </footer></>
     )

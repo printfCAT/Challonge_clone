@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Events.css';
 import cohort9 from '../assets/cohort9.jpg';
 import cohort10 from '../assets/cohort10.jpg';
@@ -20,10 +21,10 @@ function Events() {
         <div className="empty-space"></div>
         <div className="main-event">
             <div className="menu">
-                <ul>
-                    <li className="item1"><a href="#null"><i class="fa-solid fa-trophy"></i></a></li>
-                    <li className="item2"><a href="#null"><i class="fa-solid fa-ticket"></i></a></li>
-                    <li className="item3"><a href="#null"><i class="fa-solid fa-users"></i></a></li>
+            <ul>
+                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
             <div className="content">
@@ -46,7 +47,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - January 1, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>My house</span></li>
                           <li><i class="fa-solid fa-users"></i><span>7 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event2">
@@ -61,7 +62,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - March 9, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>3 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event3">
@@ -76,7 +77,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - December 29, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>0 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event4">
@@ -91,7 +92,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 30, 2023 - January 17, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Himalayas</span></li>
                           <li><i class="fa-solid fa-users"></i><span>4 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                   </div>
@@ -108,7 +109,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 28, 2023 - December 28, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>This is an online event</span></li>
                           <li><i class="fa-solid fa-users"></i><span>2 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event2">
@@ -123,7 +124,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 28, 2023 - December 29, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>5 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event3">
@@ -138,7 +139,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - December 29, 2026</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Waiblingen, DE</span></li>
                           <li><i class="fa-solid fa-users"></i><span>1 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="event4">
@@ -153,7 +154,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>January 26, 2024 - January 26, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>This is an online event</span></li>
                           <li><i class="fa-solid fa-users"></i><span>348 attendees</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                   </div>

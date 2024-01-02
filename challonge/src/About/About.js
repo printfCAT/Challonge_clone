@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import plan from '../assets/plan.png';
 import members from '../assets/members.png';
 import stats from '../assets/stats.png';
@@ -21,8 +22,8 @@ function About() {
             <div className="intro">
                 <h1>Play Together With Challonge <br />Communities</h1>
                 <p>Co-Host, Organize, and Promote your tournaments, leagues, and events all <br />from one place. Challonge Communities allow you to mobilize participants for <br />frequent competitions. Get started for free.</p>
-                <button className="start"><a href="#null">Start a new community for free</a></button>
-                <button className="find"><a href="#null">Find a community</a></button>
+                <button className="start"><Link to="/comingsoon">Start a new community for free</Link></button>
+                <button className="find"><Link to="/communities">Find a community</Link></button>
             </div>
             <div className="floating-section">
                 <div className="plan">
@@ -138,7 +139,7 @@ function About() {
                         <p>Got any questions? Feel free to<span> reach us out!</span></p>
                     </div>
                     <div className="button">
-                        <button><a href="#null">Try it for free</a></button>
+                        <button><Link to="/comingsoon">Try it for free</Link></button>
                     </div>
                 </div>
             </div>

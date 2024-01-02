@@ -1,16 +1,17 @@
+import { Link } from 'react-router-dom';
 import './Communities.css';
-import red from '../assets//red.jpg';
-import green from '../assets//green.jpg';
-import orange from '../assets//orange.jpg';
-import blue from '../assets//blue.jpg';
-import ape from '../assets//ape.jpg';
-import bull from '../assets//bull.jpg';
-import dog from '../assets//dog.jpg';
-import fox from '../assets//fox.jpg';
-import greenanimal from '../assets//green-animal.jpg';
-import lion from '../assets//lion.jpg';
-import ram from '../assets//ram.jpg';
-import redanimal from '../assets//red-animal.jpg';
+import red from '../assets/red.jpg';
+import green from '../assets/green.jpg';
+import orange from '../assets/orange.jpg';
+import blue from '../assets/blue.jpg';
+import ape from '../assets/ape.jpg';
+import bull from '../assets/bull.jpg';
+import dog from '../assets/dog.jpg';
+import fox from '../assets/fox.jpg';
+import greenanimal from '../assets/green-animal.jpg';
+import lion from '../assets/lion.jpg';
+import ram from '../assets/ram.jpg';
+import redanimal from '../assets/red-animal.jpg';
 
 function Communities() {
     return (
@@ -19,9 +20,9 @@ function Communities() {
         <div className="main-community">
             <div className="menu">
                 <ul>
-                    <li className="item1"><a href="#null"><i class="fa-solid fa-trophy"></i></a></li>
-                    <li className="item2"><a href="#null"><i class="fa-solid fa-ticket"></i></a></li>
-                    <li className="item3"><a href="#null"><i class="fa-solid fa-users"></i></a></li>
+                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
             <div className="content">
@@ -43,7 +44,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>14 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community2">
@@ -57,7 +58,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>4 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community3">
@@ -71,7 +72,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>42 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community4">
@@ -85,7 +86,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>0 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                   </div>
@@ -101,7 +102,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>2 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community2">
@@ -115,7 +116,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>3 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community3">
@@ -129,7 +130,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>4 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                       <div className="community4">
@@ -143,7 +144,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>42 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <button className="view"><a href="#null">View</a></button>
+                          <button className="view"><Link to="/comingsoon">View</Link></button>
                         </ul>
                       </div>
                   </div>

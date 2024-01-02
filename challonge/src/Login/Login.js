@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Login.css';
 
 function Login() {
@@ -14,10 +15,10 @@ function Login() {
             <div className="remember-checkbox">
               <input type="checkbox" id="remember" name="remember" />
               <label for="remember">Remember on this device</label>
-              <a href='#null'>Forgot password</a>
+              <Link to='/comingsoon'>Forgot password</Link>
             </div>
             <div className='diagonal-line'></div>
-            <button className="login-button"><a href="#null">Log in</a></button>
+            <button className="login-button"><Link to="/tournaments">Log in</Link></button>
         </div>
       </body></>
     )
