@@ -202,7 +202,6 @@ ul {
 .community1 .pfp, .community2 .pfp, .community3 .pfp, .community4 .pfp {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
 }
 
 .group-name .specific {

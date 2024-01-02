@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Communities from './Communities';
+import Comingsoon from './Comingsoon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Communities />
+    <Comingsoon />
   </React.StrictMode>
 );
 
