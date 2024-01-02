@@ -1,13 +1,12 @@
-import logo from '../assets/challonge-logo.png';
-import bracket from './bracket.png';
+import bracket from '../assets/bracket.png';
 import './App.css';
 import countUp from './countUp';
-import top from './top.png';
-import bottom from './bottom.png';
-import holberton from './holberton-logo.png';
-import alx from './alx-logo.png';
-import mcf from './mcf-logo.png';
-import room from './the-room.png';
+import top from '../assets/top.png';
+import bottom from '../assets/bottom.png';
+import holberton from '../assets/holberton-logo.png';
+import alx from '../assets/alx-logo.png';
+import mcf from '../assets/mcf-logo.png';
+import room from '../assets/the-room.png';
 
 window.onload = function() {
   countUp('graduateCount', 80000, 85000, 30);
@@ -28,7 +27,7 @@ function App() {
         <div className='communities'>
           <h1>Challonge Communities</h1>
           <p>Host multiple tournaments, leagues and events for your loyal members.</p>
-          <button className='learn-more'>Learn more</button>
+          <button className='learn-more'><a href="null">Learn more</a></button>
         </div>
         <div className='game-settings'>
           <h1>Enjoy your game, we'll handle the <br />rest</h1>
@@ -100,7 +99,7 @@ function App() {
           <div className="conclusion">
             <h1>Providing the right tools for the <br />gaming community</h1>
             <p>I aim to keep things simple, but there's plenty more to explore <br />on my challonge clone project.</p>
-            <button className="signup">Sign Up Free</button>
+            <button className="signup"><a href="#null">Sign Up Free</a></button>
           </div>
         </div>
       </body></>

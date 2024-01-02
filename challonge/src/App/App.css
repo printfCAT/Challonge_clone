@@ -1,3 +1,12 @@
+body, header, footer {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .intro {
   min-height: 400px;
   text-align: center;
@@ -85,6 +94,10 @@
   font-family: Inter;
   color: #B3B3B3;
   font-size: 16px;
+}
+
+.communities a {
+  color: #FFFFFF;
 }
 
 .learn-more {
@@ -296,4 +309,8 @@
 
 .signup:hover {
   background-color: #F05700;
+}
+
+.signup a {
+  color: #FFFFFF;
 }

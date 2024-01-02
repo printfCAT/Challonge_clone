@@ -1,36 +1,23 @@
-import logo from './challonge-logo.png';
 import './Tournaments.css';
-import mlegends from './mobile-legends.png';
-import valorant from './valorant.jpg';
-import legends from './apex-legends.png';
-import ccs from './ccs.png';
-import pool from './pool.jpg';
-import fifa from './fifa24.jpg';
-import dota2 from './dota2.jpg';
-import cohort1 from './cohort1.jpg';
-import cohort2 from './cohort2.jpg';
-import cohort3 from './cohort3.png';
-import cohort4 from './cohort4.png';
-import cohort5 from './cohort5.jpg';
-import cohort6 from './cohort6.png';
-import cohort7 from './cohort7.png';
-import cohort8 from './cohort8.png';
+import mlegends from '../assets/mobile-legends.png';
+import valorant from '../assets/valorant.jpg';
+import legends from '../assets/apex-legends.png';
+import ccs from '../assets/ccs.png';
+import pool from '../assets/pool.jpg';
+import fifa from '../assets/fifa24.jpg';
+import dota2 from '../assets/dota2.jpg';
+import cohort1 from '../assets/cohort1.jpg';
+import cohort2 from '../assets/cohort2.jpg';
+import cohort3 from '../assets/cohort3.png';
+import cohort4 from '../assets/cohort4.png';
+import cohort5 from '../assets/cohort5.jpg';
+import cohort6 from '../assets/cohort6.png';
+import cohort7 from '../assets/cohort7.png';
+import cohort8 from '../assets/cohort8.png';
 
 function Tournaments() {
     return (
-        <><head>
-        </head>
-        <header className="App-header">
-        <a href='#null'><img src={logo} alt="logo" /></a>
-        <div className='button-container'>
-          <div className='login-container'>
-            <a href='#null'><i class="fa-solid fa-magnifying-glass"></i></a>
-            <button className="button1">Log in</button>
-          </div>
-          <button className="button2">Sign up</button>
-        </div>
-      </header>
-      <body>
+        <><body>
         <div className="empty-space"></div>
         <div className="main-tournament">
             <div className="menu">
@@ -182,37 +169,7 @@ function Tournaments() {
                 </div>
             </div>
         </div>
-      </body>
-      <footer>
-        <div className='column1'>
-          <a href='#null'><img src={logo} alt="logo" /></a>
-          <p>&copy; 2023 Challonge, LLC</p>
-        </div>
-        <div className='column2'>
-          <h5>EXPLORE</h5>
-          <a href='#null'><p>Search Tournaments</p></a>
-          <a href='#null'><p>Bracket Generator</p></a>
-          <a href='#null'><p>Features</p></a>
-          <a href='#null'><p>About</p></a>
-        </div>
-        <div className='column3'>
-          <h5>RESOURCES</h5>
-          <a href='#null'><p>API</p></a>
-          <a href='#null'><p>Terms</p></a>
-          <a href='#null'><p>Privacy</p></a>
-        </div>
-        <div className='column4'>
-          <h5>GET IN TOUCH</h5>
-          <div className='socials'>
-            <a href='#null'><i class="fa-brands fa-facebook"></i></a>
-            <a href='#null'><i class="fa-brands fa-twitter"></i></a>
-            <a href='#null'><i class="fa-brands fa-youtube"></i></a>
-          </div>
-          <a href='#null'><p>Partners</p></a>
-          <a href='#null'><p>Contact</p></a>
-          <a href='#null'><p>Blog</p></a>
-        </div>
-      </footer></>
+      </body></>
     )
 }
 

@@ -7,20 +7,6 @@ body {
     background-color: #272A33;
 }
 
-.App-header {
-    background-color: #272A33;
-    padding-left: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
-}
-
 .fa-solid {
     color: #454D60;
     font-size: 20px;
@@ -30,54 +16,13 @@ body {
 .fa-solid:hover {
     color: white;
 }
-  
-.button-container {
-    display: flex;
-}
-  
-.login-container {
-    display: flex;
-    align-items: center;
-}
-  
-.button1, .button2 {
-    margin-left: 5px;
-    padding: 7px 16px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: 700;
-}
-
-.material-symbols-outlined {
-    color: #454D60;
-}
-
-.button1 {
-    background-color: #454D60;
-}
-
-.button1:hover {
-    background-color: hsl(223, 16%, 22%);
-}
-  
-.button2 {
-    margin-right: 70px;
-    background-color: #FF7324;
-}
-
-.button2:hover {
-    background-color: #F05700;
-}
 
 .empty-space {
     height: 330px;
     background-color: #0F131B;
 }
 
-.main-tournament {
+.main-event {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -103,19 +48,19 @@ body {
     cursor: pointer;
 }
 
-.menu .item2:hover, .menu .item3:hover {
+.menu .item1:hover, .menu .item3:hover {
     background-color: #2B2F39;
 }
 
-.menu .item1 {
+.menu .item2 {
     background-color: #393d4a;
 }
 
-.menu .fa-trophy {
+.menu .fa-ticket {
     color: #FFFFFF;
 }
 
-.menu .fa-ticket, .menu .fa-users {
+.menu .fa-trophy, .menu .fa-users {
     color: #95979C;
 }
 
@@ -177,18 +122,18 @@ ul {
     padding-bottom: 200px;
 }
 
-.game1, .game2, .game3, .game4 {
+.event1, .event2, .event3, .event4 {
     border-radius: 5px;
     background-color: #303540;
     width: 250px;
     height: 375px;
 }
 
-.game2, .game3, .game4 {
+.event2, .event3, .event4 {
     margin-left: 15px;
 }
 
-.game1 .game-pfp, .game1 .game-pfp, .game2 .game-pfp, .game3 .game-pfp, .game4 .game-pfp {
+.event1 .game-pfp, .event2 .game-pfp, .event3 .game-pfp, .event4 .game-pfp {
     width: 100%;
     height: 28%;
     border-top-left-radius: 5px;
@@ -199,7 +144,7 @@ ul {
     display: flex;
 }
 
-.game1 .pfp, .game2 .pfp, .game3 .pfp, .game4 .pfp {
+.event1 .pfp, .event2 .pfp, .event3 .pfp, .event4 .pfp {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -212,27 +157,27 @@ ul {
     margin-left: 15px;
 }
 
-.game1 ul, .game2 ul, .game3 ul, .game4 ul {
+.event1 ul, .event2 ul, .event3 ul, .event4 ul {
     margin: 0;
     padding: 0;
     padding-top: 10px;
     padding-left: 15px;
 }
 
-.game1 .fa-gamepad, .game1 .fa-users, .game1 .fa-calendar,
-.game2 .fa-gamepad, .game2 .fa-users, .game2 .fa-calendar,
-.game3 .fa-gamepad, .game3 .fa-users, .game3 .fa-calendar,
-.game4 .fa-gamepad, .game4 .fa-users, .game4 .fa-calendar {
+.event1 .fa-location-dot, .event1 .fa-users, .event1 .fa-calendar,
+.event2 .fa-location-dot, .event2 .fa-users, .event2 .fa-calendar,
+.event3 .fa-location-dot, .event3 .fa-users, .event3 .fa-calendar,
+.event4 .fa-location-dot, .event4 .fa-users, .event4 .fa-calendar {
     font-size: 15px;
     color: #959EA8;
     padding-top: 15px;
 
 }
 
-.game1 p, .game1 span,
-.game2 p, .game2 span,
-.game3 p, .game3 span,
-.game4 p, .game4 span {
+.event1 p, .event1 span,
+.event2 p, .event2 span,
+.event3 p, .event3 span,
+.event4 p, .event4 span {
     font-family: Inter;
     font-size: 14px;
     color: #95979C;
@@ -240,7 +185,7 @@ ul {
     font-weight: 500;
 }
 
-.game1 button, .game2 button, .game3 button, .game4 button {
+.event1 button, .event2 button, .event3 button, .event4 button {
     padding: 12px 94px;
     border-radius: 50px;
     border: none;
@@ -251,61 +196,12 @@ ul {
     margin-top: 20px;
 }
 
-.game1 button:hover, .game2 button:hover, .game3 button:hover, .game4 button:hover {
+.event1 button:hover, .event2 button:hover, .event3 button:hover, .event4 button:hover {
     cursor: pointer;
     background-color: #303542;
     border: 1px solid #2c303c;
 }
 
-.game1 a, .game2 a, .game3 a, .game4 a {
+.event1 a, .event2 a, .event3 a, .event4 a {
     color: #FFFFFF;
-}
-
-footer {
-    background-color: #272A33;
-    min-height: 320px;
-    display: flex;
-    justify-content: space-between;
-    border-top: solid 1px #383A42;
-}
-  
-footer h5 {
-    color: white;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 14px;
-}
-  
-footer p {
-    color: #5F6472;
-    font-family: Inter;
-    font-size: 13px;
-}
-  
-footer p:hover {
-    color: #D8D2C8;
-}
-  
-.column1 img {
-    width: 175px;
-    height: 40px;
-}
-  
-.column1, .column2, .column3, .column4 {
-    flex: 1;
-    padding-top: 35px;
-    padding-left: 35px;
-}
-  
-a {
-    text-decoration: none;
-}
-  
-.socials a {
-    margin-right: 20px;
-    font-size: 20px;
-    color: #5F6472;
-}
-  
-.socials a:hover {
-    color: #B4B5B7;
 }
