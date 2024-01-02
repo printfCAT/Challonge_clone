@@ -7,6 +7,10 @@ body {
     background-color: #272A33;
 }
 
+a {
+    text-decoration: none;
+}
+
 .fa-solid {
     color: #454D60;
     font-size: 20px;

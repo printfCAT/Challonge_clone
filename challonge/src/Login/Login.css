@@ -67,6 +67,7 @@ body {
   font-size: 14px;
   color: #FF7324;
   padding-left: 240px;
+  text-decoration: none;
 }
 
 .remember-checkbox a:hover {
@@ -101,7 +102,7 @@ body {
   background-color: #F05700;
 }
 
-.login a {
+.login-button a {
     color: #FFFFFF;
     text-decoration: none;
 }
