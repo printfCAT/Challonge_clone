@@ -7,12 +7,12 @@ body {
     background-color: #272A33;
 }
 
-.signup {
+.main-signup {
     margin-left: 520px;
     min-height: 830px;
 }
 
-.signup h1 {
+.main-signup h1 {
     margin-top: 120px;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 30px;
@@ -20,7 +20,7 @@ body {
     color: #FAFAFA;
 }
 
-.signup p {
+.main-signup p {
     font-family: Inter;
     font-size: 14px;
     color: #5B647D;
@@ -62,11 +62,11 @@ body {
   cursor: pointer
 }
 
-.agreement-checkbox span {
+.signup-span {
     color: #FF7324;
 }
 
-.agreement-checkbox span:hover {
+.signup-span:hover {
     text-decoration: underline;
 }
 
@@ -83,14 +83,14 @@ body {
     cursor: pointer
 }
 
-.diagonal-line1 {
-  border: solid #5F6472 1px;
+.signup-diagonal-line1 {
+  border: solid #383A42 1px;
   width: 51.5%;
   margin-top: 55px;
 }
 
-.diagonal-line2 {
-    border: solid #5F6472 1px;
+.signup-diagonal-line2 {
+    border: solid #383A42 1px;
     width: 51.5%;
     margin-top: 20px;
 }
@@ -127,14 +127,15 @@ body {
     color: #FFFFFF;
 }
 
-.diagonal-line {
-  border: solid 1px #5F6472;
+.signup-diagonal-line {
+  border: solid 1px #383A42;
   width: 51.5%;
   margin-top: 20px;
 }
 
 .signup-button {
-  margin-top: 20px;
+  position: relative;
+  top: 35px;
   padding: 12px 203px;
   background-color: #FF7324;
   border: none;
@@ -145,7 +146,7 @@ body {
   cursor: pointer;
 }
 
-.signup-button a {
+.signup-button {
   color: #FFFFFF;
 }
 
@@ -153,6 +154,6 @@ body {
   background-color: #F05700;
 }
 
-.signup a {
+.main-signup a {
     text-decoration: none;
 }

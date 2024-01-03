@@ -44,7 +44,7 @@ function Discover() {
                     <div className="community-info">
                       <img src={fox} alt="fox" />
                       <div className="info">
-                        <p>Liz's Tournaments - Arizona <span>PRO</span></p>
+                        <p>Liz's Tournaments - Arizona <span className="discover-span">PRO</span></p>
                         <ul>
                           <li>1 follower</li>
                         </ul>
@@ -58,7 +58,7 @@ function Discover() {
                     <div className="community-info">
                       <img src={wordengine} alt="wordengine" />
                       <div className="info">
-                        <p>WordEngine Team Challenge <span>PRO</span></p>
+                        <p>WordEngine Team Challenge <span className="discover-span">PRO</span></p>
                         <ul>
                           <li>1 follower</li>
                         </ul>
@@ -72,7 +72,7 @@ function Discover() {
                     <div className="community-info">
                       <img src={battle} alt="battle" />
                       <div className="info">
-                        <p>Battle At The Beach Darts Floriad <span>PRO</span></p>
+                        <p>Battle At The Beach Darts Floriad <span className="discover-span">PRO</span></p>
                         <ul>
                           <li>44 followers</li>
                         </ul>
@@ -103,7 +103,7 @@ function Discover() {
                     <div className="community-info">
                       <img src={golf} alt="golf" />
                       <div className="info">
-                        <p>Golf Rival Leagues <span>PRO</span></p>
+                        <p>Golf Rival Leagues <span className="discover-span">PRO</span></p>
                         <ul>
                           <li>150 followers</li>
                         </ul>
