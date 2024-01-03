@@ -3,11 +3,15 @@ body, header, footer {
     padding: 0;
   }
   
-  a {
+  .dashboard-body a {
     text-decoration: none;
   }
   
-  .intro {
+.dashboard-body {
+  background-color: #FFFFFF;
+}
+
+  .dashboard-intro {
     min-height: 400px;
     text-align: center;
     padding-top: 160px;
@@ -17,7 +21,7 @@ body, header, footer {
     align-items: center;
   }
   
-  .intro h1 {
+  .dashboard-intro h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 36px;
     color: white;
@@ -25,17 +29,17 @@ body, header, footer {
     padding-top: 75px;
   }
   
-  .intro p {
+  .dashboard-intro p {
     font-family: Inter;
     font-size: 17px;
     color: #B3B3B3;
     padding-bottom: 20px;
   }
-  
-  .intro a {
-    color: #FFFFFF;
-  }
-  
+
+.buttons {
+  padding-bottom: 70px;
+}
+
   .Tournament {
     font-family: 'Chakra Petch', sans-serif;
     background-color: #FF7324;
@@ -46,10 +50,7 @@ body, header, footer {
     font-size: 17px;
     font-weight: 700;
     margin-right: 15px;
-  }
-  
-  .intro button.Tournament {
-    margin-bottom: 55px;
+    color: #FFFFFF;
   }
   
   .Tournament:hover {
@@ -66,20 +67,21 @@ body, header, footer {
     font-size: 17px;
     font-weight: 700;
     margin-right: 15px;
+    color: #FFFFFF;
   }
   
   .bracket:hover {
     background-color: #303542;
   }
   
-  .intro img {
-    padding-bottom: 50px;
+  .dashboard-img {
+    padding-bottom: 70px;
   }
   
   .communities {
     min-height: 380px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 65px;
     background: #23262E;
   }
   
@@ -93,7 +95,8 @@ body, header, footer {
   .communities p {
     font-family: Inter;
     color: #B3B3B3;
-    font-size: 16px;
+    font-size: 17px;
+    padding-bottom: 20px;
   }
   
   .communities a {
@@ -142,7 +145,7 @@ body, header, footer {
     font-size: 17px; 
   }
   
-  .game-settings .diagonal-line {
+  .dashboard-diagonal-line {
     width: 7%;
     height: 0;
     border-bottom: 4px solid #FF7324;

@@ -15,25 +15,25 @@ window.onload = function() {
 
 function Dashboard() {
   return (
-    <><body>
-        <div className='intro'>
+    <><body className="dashboard-body">
+        <div className='dashboard-intro'>
           <h1>Simplify Tournament Management</h1>
           <p>Thank you ALX Africa for allowing me to learn. ALX has produced more than <br /><b><span id="graduateCount">80000</span></b> graduates since 2021.</p>
           <div className="buttons">
-            <button className='Tournament'><Link to="/comingsoon">Create Tournament</Link></button>
-            <button className='bracket'><Link to="/comingsoon">Try Our Bracket Generator</Link></button>
+            <Link to="/comingsoon" className='Tournament'>Create Tournament</Link>
+            <Link to="/comingsoon" className='bracket'>Try Our Bracket Generator</Link>
           </div>
-          <img src={bracket} alt="bracket" />
+          <img className="dashboard-img" src={bracket} alt="bracket" />
         </div>
         <div className='communities'>
           <h1>Challonge Communities</h1>
           <p>Host multiple tournaments, leagues and events for your loyal members.</p>
-          <button className='learn-more'><Link to="/about">Learn more</Link></button>
+          <Link to="/about" className='learn-more'>Learn more</Link>
         </div>
         <div className='game-settings'>
           <h1>Enjoy your game, we'll handle the <br />rest</h1>
           <p>Challonge has a variety of settings that can fit your friday night game <br />with friends.</p>
-          <div className='diagonal-line'></div>
+          <div className='dashboard-diagonal-line'></div>
           <div className='game-columns'>
             <div className='types'>
               <h3>Choose a Type</h3>
@@ -100,7 +100,7 @@ function Dashboard() {
           <div className="conclusion">
             <h1>Providing the right tools for the <br />gaming community</h1>
             <p>I aim to keep things simple, but there's plenty more to explore <br />on my challonge clone project.</p>
-            <button className="signup"><Link to="/signup">Sign Up Free</Link></button>
+            <Link to="/signup" className="signup">Sign Up Free</Link>
           </div>
         </div>
       </body></>
