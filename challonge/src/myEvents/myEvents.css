@@ -3,11 +3,11 @@ body, header, footer {
     padding: 0;
 }
 
-body {
+.myeventss-body {
     background-color: #272A33;
 }
 
-a {
+.myevents-body a {
     text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ a {
     min-height: 950px;
 }
 
-.menu {
+.myevents-menu {
     width: 120px;
     display: block;
     position: sticky;
@@ -32,40 +32,40 @@ a {
     margin-left: 160px;
 }
 
-.menu .item1, .menu .item2, .menu .item3, .menu .item4 {
+.myevents-menu .item1, .myevents-menu .item2, .myevents-menu .item3, .myevents-menu .item4 {
     padding: 16px 30px;
     border-radius: 50px 0 0 50px;
     border-right: 1px solid #383A42;
 }
 
-.diagonal-line1 {
+.myevents-diagonal-line1 {
     border: 1px solid #383A42;
     border-right: 1px solid #383A42;
     width: 70%;
     margin-left: 33px;
 }
 
-.menu .item1:hover, .menu .item2:hover, .menu .item3:hover, .menu .item4:hover {
+.myevents-menu .item1:hover, .myevents-menu .item2:hover, .myevents-menu .item3:hover, .myevents-menu .item4:hover {
     cursor: pointer;
 }
 
-.menu .item1:hover, .menu .item3:hover, .menu .item4:hover {
+.myevents-menu .item1:hover, .myevents-menu .item3:hover, .myevents-menu .item4:hover {
     background-color: #2B2F39;
 }
 
-.menu .item2 {
+.myevents-menu .item2 {
     background-color: #393d4a;
 }
 
-.menu .fa-ticket {
+.myevents-menu .fa-ticket {
     color: #FFFFFF;
 }
 
-.menu .fa-users, .menu .fa-trophy, .menu .fa-compass {
+.myevents-menu .fa-users, .myevents-menu .fa-trophy, .myevents-menu .fa-compass {
     color: #95979C;
 }
 
-.menu .fa-users:hover, .menu .fa-trophy:hover, .menu .fa-compass:hover {
+.myevents-menu .fa-users:hover, .myevents-menu .fa-trophy:hover, .myevents-menu .fa-compass:hover {
     color: #95979C;
 }
 
@@ -83,44 +83,44 @@ a {
     color: white;
 }
 
-.content {
+.myevents-content {
     margin-left: 40px;
     padding-top: 5px;
 }
 
-.content h1 {
+.myevents-content h1 {
     font-family: 'Chakra Petch';
     font-size: 42px;
     color: #FFFFFF;
 }
 
-.content .diagonal-line {
+.myevents-diagonal-line {
     border: 2px solid #F35F21;
-    width: 6%;
+    width: 5.5%;
     position: relative;
-    bottom: 100px;
+    bottom: 37px;
 }
 
-.create {
+.myevents-create {
     position: relative;
-    left: 775px;
-    bottom: 125px;
-    padding: 13px 52px;
+    left: 840px;
+    bottom: 75px;
+    padding: 12px 39px;
     border-radius: 50px;
     border: none;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     font-size: 17px;
     background-color: #FF7324;
-    margin-top: 40px;
+    color: #FFFFFF;
 }
 
-.create:hover {
+.myevents-create:hover {
     cursor: pointer;
     background-color: #F05700;
 }
 
-.create a {
+.myevents-create a {
     color: #FFFFFF;
 }
 
@@ -129,12 +129,12 @@ a {
     gap: 20px;
 }
 
-.text {
+.myevents-text {
     margin-left: 23px;
-    margin-top: 70px;
+    margin-top: 117px;
 }
 
-.text h2 {
+.myevents-text h2 {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 400;
     font-size: 35px;
@@ -142,7 +142,7 @@ a {
     line-height: 1.1;
 }
 
-.text p {
+.myevents-text p {
     font-family: Inter;
     font-size: 21px;
     color: #D8D8D8;
@@ -150,7 +150,7 @@ a {
     line-height: 1.4;
 }
 
-.create2 {
+.myevents-create2 {
     padding: 7px 40px;
     border-radius: 50px;
     border: none;
@@ -159,13 +159,14 @@ a {
     font-size: 14px;
     background-color: #FF7324;
     margin-top: 10px;
+    color: #FFFFFF;
 }
 
-.create2:hover {
+.myevents-create2:hover {
     cursor: pointer;
     background-color: #F05700;
 }
 
-.create2 a {
+.myevents-create2 a {
     color: #FFFFFF;
 }

@@ -4,29 +4,29 @@ import slot from '../assets/slot.jpg';
 
 function myEvents() {
     return (
-        <><body>
+        <><body className="myevent-body">
         <div className="empty-space"></div>
         <div className="main-event">
-            <div className="menu">
+            <div className="myevents-menu">
             <ul className="myevents-ul">
-                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/myevents"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/mycommunities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
-                <div className="diagonal-line1"></div>
+                <div className="myevents-diagonal-line1"></div>
                 <ul className="myevents-ul">
                     <li className="item4"><Link to="/discover"><i class="fa-solid fa-compass"></i></Link></li>
                 </ul>
             </div>
-            <div className="content">
+            <div className="myevents-content">
                 <h1>Your Events</h1>
-                <button className="create"><Link to="/comingsoon">Create an Event</Link></button>
-                <div className="diagonal-line"></div>
+                <Link to="/comingsoon" className="myevents-create">Create an Event</Link>
+                <div className="myevents-diagonal-line"></div>
                 <div className="commence">
-                  <div className="text">
+                  <div className="myevents-text">
                     <h2>Start building your <br />event!</h2>
                     <p>Create multiple tournaments, sell tickets, <br />manage attendees, and more.</p>
-                    <button className="create2"><Link to="/comingsoon">Create an Event</Link></button>
+                    <Link to="/comingsoon" className="myevents-create2">Create an Event</Link>
                   </div>
                   <div className="image"><img src={slot} alt="slot" /></div>
                 </div>
