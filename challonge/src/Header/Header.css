@@ -45,6 +45,7 @@ body, header, footer {
     cursor: pointer;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
+    font-size: 14px;
   }
   
   .material-symbols-outlined {
@@ -60,7 +61,7 @@ body, header, footer {
   }
   
   .button2 {
-    margin-right: 40px;
+    margin-right: 67px;
     background-color: #FF7324;
   }
   

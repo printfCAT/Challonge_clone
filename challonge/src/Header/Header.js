@@ -9,9 +9,9 @@ function Header() {
         <div className='button-container'>
           <div className='login-container'>
             <Link to='/tournaments'><i class="fa-solid fa-magnifying-glass"></i></Link>
-            <button className="button1"><Link to="/login">Log in</Link></button>
+            <Link to="/login" className="button1">Log in</Link>
           </div>
-          <button className="button2"><Link to="/signup">Sign up</Link></button>
+          <Link to="/signup" className="button2">Sign up</Link>
         </div>
         </header></>
     )
