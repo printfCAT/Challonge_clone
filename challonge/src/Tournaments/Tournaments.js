@@ -18,24 +18,24 @@ import cohort8 from '../assets/cohort8.png';
 
 function Tournaments() {
     return (
-        <><body>
+        <><body className="tournaments-body">
         <div className="empty-space"></div>
         <div className="main-tournament">
-            <div className="menu">
+            <div className="tournaments-menu">
                 <ul className="tournaments-ul">
                     <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
                     <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
                     <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
-            <div className="content">
+            <div className="tournaments-content">
                 <h1>Search</h1>
-                <div className="diagonal-line"></div>
+                <div className="tournaments-diagonal-line"></div>
                 <h2>Tournaments</h2>
                 <input className="game" type="text" placeholder="Search for tournaments" />
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <div className="games">
-                    <div className="row1">
+                    <div className="tournaments-row1">
                         <div className="game1">
                             <img className="game-pfp" src={mlegends} alt="mobile legends" />
                             <ul className="tournaments-ul">
@@ -49,7 +49,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game2">
@@ -65,7 +65,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>6 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 3, 2024</span></li>
                                 <p>Created at December 23, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game3">
@@ -81,7 +81,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>53 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 31, 2023</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game4">
@@ -97,11 +97,11 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>0 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>July 20, 2023</span></li>
                                 <p>Created at July 20, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                     </div>
-                    <div className="row2">
+                    <div className="tournaments-row2">
                         <div className="game1">
                             <img className="game-pfp" src={pool} alt="pool" />
                             <ul className="tournaments-ul">
@@ -115,7 +115,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>4 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 1, 2023</span></li>
                                 <p>Created at October 13, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game2">
@@ -131,7 +131,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>3 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 12, 2023</span></li>
                                 <p>Created at December 10, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game3">
@@ -147,7 +147,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>20 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 30, 2023</span></li>
                                 <p>Created at December 20, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game4">
@@ -163,7 +163,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>10 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 9, 2024</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <button className="view"><Link to="/comingsoon">View</Link></button>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                     </div>
