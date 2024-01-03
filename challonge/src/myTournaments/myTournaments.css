@@ -3,11 +3,11 @@ body, header, footer {
     padding: 0;
 }
 
-body {
+.mytournaments-body {
     background-color: #272A33;
 }
 
-a {
+.mytournaments-a {
     text-decoration: none;
 }
 
@@ -16,14 +16,14 @@ a {
     background-color: #0F131B;
 }
 
-.main-tournament {
+.main-mytournament {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    min-height: 950px;
+    min-height: 1000px;
 }
 
-.menu {
+.mytournaments-menu {
     width: 120px;
     display: block;
     position: sticky;
@@ -32,40 +32,40 @@ a {
     margin-left: 160px;
 }
 
-.menu .item1, .menu .item2, .menu .item3, .menu .item4 {
+.mytournaments-menu .item1, .mytournaments-menu .item2, .mytournaments-menu .item3, .mytournaments-menu .item4 {
     padding: 16px 30px;
     border-radius: 50px 0 0 50px;
     border-right: 1px solid #383A42;
 }
 
-.diagonal-line1 {
+.mytournaments-diagonal-line1 {
     border: 1px solid #383A42;
     border-right: 1px solid #383A42;
     width: 70%;
     margin-left: 33px;
 }
 
-.menu .item1:hover, .menu .item2:hover, .menu .item3:hover, .menu .item4:hover {
+.mytournaments-menu .item1:hover, .mytournaments-menu .item2:hover, .mytournaments-menu .item3:hover, .mytournaments-menu .item4:hover {
     cursor: pointer;
 }
 
-.menu .item2:hover, .menu .item3:hover, .menu .item4:hover {
+.mytournaments-menu .item2:hover, .mytournaments-menu .item3:hover, .mytournaments-menu .item4:hover {
     background-color: #2B2F39;
 }
 
-.menu .item1 {
+.mytournaments-menu .item1 {
     background-color: #393d4a;
 }
 
-.menu .fa-trophy {
+.mytournaments-menu .fa-trophy {
     color: #FFFFFF;
 }
 
-.menu .fa-users, .menu .fa-ticket, .menu .fa-compass {
+.mytournaments-menu .fa-users, .mytournaments-menu .fa-ticket, .mytournaments-menu .fa-compass {
     color: #95979C;
 }
 
-.menu .fa-users:hover, .menu .fa-ticket:hover, .menu .fa-compass:hover {
+.mytournaments-menu .fa-users:hover, .mytournaments-menu .fa-ticket:hover, .mytournaments-menu .fa-compass:hover {
     color: #95979C;
 }
 
@@ -83,28 +83,28 @@ a {
     color: white;
 }
 
-.content {
+.mytournaments-content {
     margin-left: 40px;
     padding-top: 5px;
 }
 
-.content h1 {
+.mytournaments-content h1 {
     font-family: 'Chakra Petch';
     font-size: 42px;
     color: #FFFFFF;
 }
 
-.content .diagonal-line {
+.mytournaments-diagonal-line {
     border: 2px solid #F35F21;
-    width: 6%;
+    width: 5.5%;
     position: relative;
-    bottom: 100px;
+    bottom: 40px;
 }
 
-.create {
+.mytournaments-create {
     position: relative;
     left: 775px;
-    bottom: 125px;
+    bottom: 75px;
     padding: 13px 52px;
     border-radius: 50px;
     border: none;
@@ -113,15 +113,12 @@ a {
     font-size: 17px;
     background-color: #FF7324;
     margin-top: 40px;
+    color: #FFFFFF;
 }
 
-.create:hover {
+.mytournaments-create:hover {
     cursor: pointer;
     background-color: #F05700;
-}
-
-.create a {
-    color: #FFFFFF;
 }
 
 .commence {
@@ -129,12 +126,12 @@ a {
     gap: 20px;
 }
 
-.text {
+.mytournaments-text {
     margin-left: 23px;
-    margin-top: 70px;
+    margin-top: 133px;
 }
 
-.text h2 {
+.mytournaments-text h2 {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 400;
     font-size: 35px;
@@ -142,7 +139,7 @@ a {
     line-height: 1.5;
 }
 
-.text p {
+.mytournaments-text p {
     font-family: Inter;
     font-size: 21px;
     color: #D8D8D8;
@@ -150,7 +147,7 @@ a {
     line-height: 1.4;
 }
 
-.create2 {
+.mytournaments-create2 {
     padding: 7px 40px;
     border-radius: 50px;
     border: none;
@@ -158,14 +155,12 @@ a {
     font-weight: 700;
     font-size: 14px;
     background-color: #FF7324;
-    margin-top: 10px;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
 }
 
-.create2:hover {
+.mytournaments-create2:hover {
     cursor: pointer;
     background-color: #F05700;
-}
-
-.create2 a {
-    color: #FFFFFF;
 }

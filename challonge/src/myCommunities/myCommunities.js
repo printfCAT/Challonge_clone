@@ -6,7 +6,7 @@ function myCommunities() {
     return (
         <><body>
         <div className="empty-space"></div>
-        <div className="main-community">
+        <div className="main-mycommunity">
             <div className="mycommunities-menu">
             <ul className="mycommunities-ul">
                     <li className="item1"><Link to="/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>

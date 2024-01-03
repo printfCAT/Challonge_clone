@@ -16,7 +16,7 @@ body, header, footer {
     background-color: #0F131B;
 }
 
-.main-event {
+.main-myevent {
     display: flex;
     flex-direction: row;
     align-items: flex-start;

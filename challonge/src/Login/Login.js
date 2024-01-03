@@ -18,7 +18,7 @@ function Login() {
               <Link to='/comingsoon'>Forgot password</Link>
             </div>
             <div className='login-diagonal-line'></div>
-            <button className="login-button"><Link to="/mytournaments">Log in</Link></button>
+            <Link to="/mytournaments" className="login-button">Log in</Link>
         </div>
       </body></>
     )

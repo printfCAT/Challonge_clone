@@ -6,7 +6,7 @@ function myEvents() {
     return (
         <><body className="myevent-body">
         <div className="empty-space"></div>
-        <div className="main-event">
+        <div className="main-myevent">
             <div className="myevents-menu">
             <ul className="myevents-ul">
                     <li className="item1"><Link to="/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>

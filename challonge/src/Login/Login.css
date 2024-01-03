@@ -87,7 +87,8 @@ body {
 }
 
 .login-button {
-  margin-top: 20px;
+  position: relative;
+  top: 35px;
   padding: 12px 250px;
   background-color: #FF7324;
   border: none;
@@ -96,13 +97,10 @@ body {
   font-weight: 700;
   font-size: 17px;
   cursor: pointer;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .login-button:hover {
   background-color: #F05700;
-}
-
-.login-button a {
-    color: #FFFFFF;
-    text-decoration: none;
 }
