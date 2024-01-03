@@ -1,7 +1,7 @@
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import bracket from '../assets/bracket.png';
 import './Dashboard.css';
-import countUp from './countUp';
 import top from '../assets/top.png';
 import bottom from '../assets/bottom.png';
 import holberton from '../assets/holberton-logo.png';
@@ -9,11 +9,29 @@ import alx from '../assets/alx-logo.png';
 import mcf from '../assets/mcf-logo.png';
 import room from '../assets/the-room.png';
 
-window.onload = function() {
-  countUp('graduateCount', 80000, 85000, 30);
-};
-
 function Dashboard() {
+  useEffect(() => {
+    const countUp = (targetElement, start, end, duration) => {
+      let current = start;
+      const increment = Math.ceil((end - start) / duration);
+      const element = document.getElementById(targetElement);
+
+      const timer = setInterval(() => {
+        current += increment;
+        element.textContent = current.toLocaleString();
+
+        if (current >= end) {
+          clearInterval(timer);
+          element.textContent = end.toLocaleString();
+        }
+      }, 100);
+
+      return () => clearInterval(timer);
+    };
+
+    countUp('graduateCount', 80000, 85000, 30);
+  }, []);
+
   return (
     <><body className="dashboard-body">
         <div className='dashboard-intro'>
