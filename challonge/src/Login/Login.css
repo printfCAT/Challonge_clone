@@ -74,14 +74,14 @@ body {
   text-decoration: underline;
 }
 
-.diagonal-line1 {
-  border: solid #5F6472 1px;
+.login-diagonal-line1 {
+  border: solid #383A42 1px;
   width: 51.5%;
   margin-top: 55px;
 }
 
-.diagonal-line {
-  border: solid 1px #5F6472;
+.login-diagonal-line {
+  border: solid 1px #383A42;
   width: 51.5%;
   margin-top: 30px;
 }
