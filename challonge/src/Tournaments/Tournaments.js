@@ -22,7 +22,7 @@ function Tournaments() {
         <div className="empty-space"></div>
         <div className="main-tournament">
             <div className="menu">
-                <ul>
+                <ul className="tournaments-ul">
                     <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
                     <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
                     <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
@@ -38,7 +38,7 @@ function Tournaments() {
                     <div className="row1">
                         <div className="game1">
                             <img className="game-pfp" src={mlegends} alt="mobile legends" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort1} alt="" />
@@ -54,7 +54,7 @@ function Tournaments() {
                         </div>
                         <div className="game2">
                             <img className="game-pfp" src={valorant} alt="valorant" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort3} alt="" />
@@ -70,7 +70,7 @@ function Tournaments() {
                         </div>
                         <div className="game3">
                             <img className="game-pfp" src={legends} alt="apex legends" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort7} alt="" />
@@ -86,7 +86,7 @@ function Tournaments() {
                         </div>
                         <div className="game4">
                             <img className="game-pfp" src={ccs} alt="candy crush" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort2} alt="" />
@@ -104,7 +104,7 @@ function Tournaments() {
                     <div className="row2">
                         <div className="game1">
                             <img className="game-pfp" src={pool} alt="pool" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort8} alt="" />
@@ -120,7 +120,7 @@ function Tournaments() {
                         </div>
                         <div className="game2">
                             <img className="game-pfp" src={mlegends} alt="mobile legends" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort5} alt="" />
@@ -136,7 +136,7 @@ function Tournaments() {
                         </div>
                         <div className="game3">
                             <img className="game-pfp" src={fifa} alt="ea fc24" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort6} alt="" />
@@ -152,7 +152,7 @@ function Tournaments() {
                         </div>
                         <div className="game4">
                             <img className="game-pfp" src={dota2} alt="dota2" />
-                            <ul>
+                            <ul className="tournaments-ul">
                                 <li>
                                     <div className="group-name">
                                         <img className="pfp" src={cohort4} alt="" />

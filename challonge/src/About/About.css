@@ -7,12 +7,16 @@ a {
     text-decoration: none;
 }
 
-.intro {
+.about-body {
+    background-color: #FFFFFF;;
+}
+
+.about-intro {
     min-height: 970px;
     background: linear-gradient(to bottom, #272A33 40%, #FF7324);
 }
 
-.intro h1 {
+.about-intro h1 {
     padding-top: 220px;
     margin-left: 60px;
     font-family: 'Chakra Petch', sans-serif;
@@ -21,37 +25,38 @@ a {
     color: #FFFFFF;
 }
 
-.intro p {
+.about-intro p {
     margin-left: 60px;
     font-family: Inter;
     font-size: 17px;
     position: relative;
     top: -10px;
-    line-height: 1.5;
+    line-height: 1.4;
     color: #B3B3B3;
+    padding-bottom: 10px;
 }
 
-.intro .start {
+.about-intro .start {
     margin-left: 60px;
     padding: 10px 33px;
     background-color: #FF7324;
 }
 
-.intro .start:hover {
+.about-intro .start:hover {
     background-color: #F05700;
     cursor: pointer;
 }
 
-.intro .find {
+.about-intro .find {
     background-color: #454D60;
 }
 
-.intro .find:hover {
+.about-intro .find:hover {
     background-color: #303542;
     cursor: pointer;
 }
 
-.intro button {
+.find, .start {
     margin-right: 10px;
     border-radius: 50px;
     border: none;
@@ -61,7 +66,7 @@ a {
     font-size: 18px;
 }
 
-.intro a {
+.about-intro a {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -129,11 +134,11 @@ a {
     margin-top: 500px;
 }
 
-.diagonal-line {
+.about-diagonal-line {
     border: solid 2px #FF7324;
     width: 5%;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 43px;
 }
 
 .column {
@@ -317,7 +322,7 @@ a {
     font-size: 35px;
     line-height: 0.2;
     margin-left: 220px;
-    margin-top: 135px;
+    margin-top: 145px;
 }
 
 .start-community p {
@@ -327,15 +332,15 @@ a {
     margin-left: 220px;
 }
 
-.start-community span {
+.about-span {
     color: #2BBFFF;
 }
 
-.start-community span:hover {
+.about-span:hover {
     cursor: pointer;
 }
 
-.start-community button {
+.try-button {
     padding: 10px 33px;
     background-color: #FF7324;
     border-radius: 50px;
@@ -344,15 +349,13 @@ a {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    margin-top: 135px;
-    margin-right: 220px;
-}
-
-.start-community a {
+    position: relative;
+    top: 150px;
+    right: 220px;
     color: #FFFFFF;
 }
 
-.start-community button:hover {
+.try-button:hover {
     background-color: #F05700;
     cursor: pointer;
 }

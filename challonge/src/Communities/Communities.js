@@ -19,7 +19,7 @@ function Communities() {
         <div className="empty-space"></div>
         <div className="main-community">
             <div className="menu">
-                <ul>
+                <ul className="communities-ul">
                     <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
                     <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
                     <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
@@ -35,7 +35,7 @@ function Communities() {
                   <div className="row1">
                     <div className="community1">
                       <img className="game-pfp" src={red} alt="apartments" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={bull} alt="" />
@@ -49,7 +49,7 @@ function Communities() {
                       </div>
                       <div className="community2">
                       <img className="game-pfp" src={green} alt="challonge" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={ape} alt="" />
@@ -63,7 +63,7 @@ function Communities() {
                       </div>
                       <div className="community3">
                       <img className="game-pfp" src={orange} alt="challonge" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={fox} alt="" />
@@ -77,7 +77,7 @@ function Communities() {
                       </div>
                       <div className="community4">
                       <img className="game-pfp" src={red} alt="himalayas" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={dog} alt="" />
@@ -93,7 +93,7 @@ function Communities() {
                   <div className="row2">
                     <div className="community1">
                       <img className="game-pfp" src={red} alt="discord" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={redanimal} alt="" />
@@ -107,7 +107,7 @@ function Communities() {
                       </div>
                       <div className="community2">
                       <img className="game-pfp" src={green} alt="challonge" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={greenanimal} alt="" />
@@ -121,7 +121,7 @@ function Communities() {
                       </div>
                       <div className="community3">
                       <img className="game-pfp" src={orange} alt="apartments" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={lion} alt="" />
@@ -135,7 +135,7 @@ function Communities() {
                       </div>
                       <div className="community4">
                       <img className="game-pfp" src={blue} alt="apartments" />
-                        <ul>
+                        <ul className="communities-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={ram} alt="" />

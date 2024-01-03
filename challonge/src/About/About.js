@@ -18,12 +18,12 @@ import './About.css';
 
 function About() {
     return (
-        <><body>
-            <div className="intro">
+        <><body className="about-body">
+            <div className="about-intro">
                 <h1>Play Together With Challonge <br />Communities</h1>
                 <p>Co-Host, Organize, and Promote your tournaments, leagues, and events all <br />from one place. Challonge Communities allow you to mobilize participants for <br />frequent competitions. Get started for free.</p>
-                <button className="start"><Link to="/comingsoon">Start a new community for free</Link></button>
-                <button className="find"><Link to="/communities">Find a community</Link></button>
+                <Link to="/comingsoon" className="start">Start a new community for free</Link>
+                <Link to="/communities" className="find">Find a community</Link>
             </div>
             <div className="floating-section">
                 <div className="plan">
@@ -41,7 +41,7 @@ function About() {
             </div>
             <div className="benefits">
                 <h1>Challonge Communities are loaded with benefits to <br />help you mobilize players for frequent competitions.</h1>
-                <div className='diagonal-line'></div>
+                <div className='about-diagonal-line'></div>
                 <div className="column">
                     <div className="members">
                         <img src={membersicon} alt="members icon" />
@@ -134,12 +134,12 @@ function About() {
                 <h1 className="floating-heading">and many more!</h1>
                 <div className="skewed-section"></div>
                 <div className="start-community">
-                    <div className="text">
+                    <div>
                         <h1>Start your Community Today!</h1>
-                        <p>Got any questions? Feel free to<span> reach us out!</span></p>
+                        <p>Got any questions? Feel free to<span className="about-span"> reach us out!</span></p>
                     </div>
-                    <div className="button">
-                        <button><Link to="/comingsoon">Try it for free</Link></button>
+                    <div>
+                        <Link to="/comingsoon" className="try-button">Try it for free</Link>
                     </div>
                 </div>
             </div>

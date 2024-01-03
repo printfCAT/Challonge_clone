@@ -21,7 +21,7 @@ function Events() {
         <div className="empty-space"></div>
         <div className="main-event">
             <div className="menu">
-            <ul>
+            <ul className="events-ul">
                     <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
                     <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
                     <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
@@ -37,7 +37,7 @@ function Events() {
                   <div className="row1">
                     <div className="event1">
                       <img className="game-pfp" src={apartments} alt="apartments" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort15} alt="" />
@@ -52,7 +52,7 @@ function Events() {
                       </div>
                       <div className="event2">
                       <img className="game-pfp" src={challongenull} alt="challonge" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort9} alt="" />
@@ -67,7 +67,7 @@ function Events() {
                       </div>
                       <div className="event3">
                       <img className="game-pfp" src={challongenull} alt="challonge" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort14} alt="" />
@@ -82,7 +82,7 @@ function Events() {
                       </div>
                       <div className="event4">
                       <img className="game-pfp" src={himalayas} alt="himalayas" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort13} alt="" />
@@ -99,7 +99,7 @@ function Events() {
                   <div className="row2">
                     <div className="event1">
                       <img className="game-pfp" src={discord} alt="discord" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort16} alt="" />
@@ -114,7 +114,7 @@ function Events() {
                       </div>
                       <div className="event2">
                       <img className="game-pfp" src={challongenull} alt="challonge" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort10} alt="" />
@@ -129,7 +129,7 @@ function Events() {
                       </div>
                       <div className="event3">
                       <img className="game-pfp" src={waiblingen} alt="apartments" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort12} alt="" />
@@ -144,7 +144,7 @@ function Events() {
                       </div>
                       <div className="event4">
                       <img className="game-pfp" src={zoom} alt="apartments" />
-                        <ul>
+                        <ul className="events-ul">
                           <li>
                             <div className="group-name">
                               <img className="pfp" src={cohort11} alt="" />

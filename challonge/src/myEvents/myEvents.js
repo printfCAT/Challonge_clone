@@ -8,13 +8,13 @@ function myEvents() {
         <div className="empty-space"></div>
         <div className="main-event">
             <div className="menu">
-            <ul>
+            <ul className="myevents-ul">
                     <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
                     <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
                     <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
                 <div className="diagonal-line1"></div>
-                <ul>
+                <ul className="myevents-ul">
                     <li className="item4"><Link to="/discover"><i class="fa-solid fa-compass"></i></Link></li>
                 </ul>
             </div>
