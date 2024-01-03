@@ -3,7 +3,7 @@ body, header, footer {
     padding: 0;
 }
 
-body {
+.discover-body {
     background-color: #272A33;
 }
 
@@ -19,7 +19,7 @@ body {
     min-height: 950px;
 }
 
-.menu {
+.discover-menu {
     width: 120px;
     display: block;
     position: sticky;
@@ -28,69 +28,59 @@ body {
     margin-left: 160px;
 }
 
-.menu .item1, .menu .item2, .menu .item3, .menu .item4 {
+.discover-menu .item1, .discover-menu .item2, .discover-menu .item3, .discover-menu .item4 {
     padding: 16px 30px;
     border-radius: 50px 0 0 50px;
     border-right: 1px solid #383A42;
 }
 
-.diagonal-line1 {
+.discover-diagonal-line1 {
     border: 1px solid #383A42;
     border-right: 1px solid #383A42;
     width: 70%;
     margin-left: 33px;
 }
 
-.menu .item1:hover, .menu .item2:hover, .menu .item3:hover, .menu .item4:hover {
+.discover-menu .item1:hover, .discover-menu .item2:hover, .discover-menu .item3:hover, .discover-menu .item4:hover {
     cursor: pointer;
 }
 
-.menu .item1:hover, .menu .item2:hover, .menu .item3:hover {
+.discover-menu .item1:hover, .discover-menu .item2:hover, .discover-menu .item3:hover {
     background-color: #2B2F39;
 }
 
-.menu .item4 {
+.discover-menu .item4 {
     background-color: #393d4a;
 }
 
-.menu .fa-compass {
+.discover-menu .fa-compass {
     color: #FFFFFF;
 }
 
-.menu .fa-ticket, .menu .fa-trophy, .menu .fa-users {
+.discover-menu .fa-ticket, .discover-menu .fa-trophy, .discover-menu .fa-users {
     color: #95979C;
 }
 
-.menu .fa-ticket:hover, .menu .fa-trophy:hover, .menu .fa-users:hover {
+.discover-menu .fa-ticket:hover, .discover-menu .fa-trophy:hover, .discover-menu .fa-users:hover {
     color: #95979C;
 }
 
-.menu ul {
+.discover-menu ul {
     list-style-type: none;
 }
 
-.fa-solid {
-    color: #454D60;
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-.fa-solid:hover {
-    color: white;
-}
-
-.content {
+.discover-content {
     margin-left: 40px;
     padding-top: 5px;
 }
 
-.content h2 {
+.discover-content h2 {
     font-family: 'Chakra Petch', sans-serif;
     color: #FFFFFF;
     margin-top: 50px;
 }
 
-.content a {
+.discover-content a {
     text-decoration: none;
 }
 
@@ -103,7 +93,7 @@ body {
     padding-bottom: 250px;
 }
 
-.community1 img {
+.discover-community1 img {
     width: 340px;
     height: 200px;
 }

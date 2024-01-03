@@ -21,25 +21,25 @@ import od from '../assets/od.png';
 
 function Discover() {
     return (
-        <><body>
+        <><body className="discover-body">
         <div className="empty-space"></div>
         <div className="main-discovery">
-            <div className="menu">
+            <div className="discover-menu">
             <ul>
-                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/myevents"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/mycommunities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
-                <div className="diagonal-line1"></div>
+                <div className="discover-diagonal-line1"></div>
                 <ul>
                     <li className="item4"><Link to="/discover"><i class="fa-solid fa-compass"></i></Link></li>
                 </ul>
             </div>
-            <div className="content">
+            <div className="discover-content">
               <h2>Featured Pro Communities</h2>
               <div className="featured">
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={orange} alt="orange" />
                     <div className="community-info">
                       <img src={fox} alt="fox" />
@@ -53,7 +53,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={blue} alt="blue" />
                     <div className="community-info">
                       <img src={wordengine} alt="wordengine" />
@@ -67,7 +67,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={green} alt="green" />
                     <div className="community-info">
                       <img src={battle} alt="battle" />
@@ -84,7 +84,7 @@ function Discover() {
               <h2>Communities with Tournaments This Week</h2>
               <div className="with-tournaments">
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={oce} alt="oce" />
                     <div className="community-info">
                       <img src={oce3} alt="oce3" />
@@ -98,7 +98,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={grl} alt="grl" />
                     <div className="community-info">
                       <img src={golf} alt="golf" />
@@ -112,7 +112,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={wc} alt="wc" />
                     <div className="community-info">
                       <img src={wct} alt="wct" />
@@ -129,7 +129,7 @@ function Discover() {
               <h2>Trending Communities</h2>
               <div className="trending">
               <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={gamesiga} alt="gamesiga" />
                     <div className="community-info">
                       <img src={gs} alt="gs" />
@@ -143,7 +143,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={highcouncil} alt="highcouncil" />
                     <div className="community-info">
                       <img src={hc} alt="hc" />
@@ -157,7 +157,7 @@ function Discover() {
                   </div>
                 </Link>
                 <Link to="/comingsoon">
-                  <div className="community1">
+                  <div className="discover-community1">
                     <img src={outkast} alt="outkast" />
                     <div className="community-info">
                       <img src={od} alt="od" />
