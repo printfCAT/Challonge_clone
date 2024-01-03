@@ -38,6 +38,10 @@ body, header, footer {
     padding-left: 35px;
   }
   
+.column1 p {
+  margin-left: 10px;
+}
+
   a {
     text-decoration: none;
   }
