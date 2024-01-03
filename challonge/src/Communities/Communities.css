@@ -29,7 +29,7 @@ body {
     min-height: 700px;
 }
 
-.menu {
+.communities-menu {
     width: 120px;
     display: block;
     position: sticky;
@@ -38,59 +38,60 @@ body {
     margin-left: 160px;
 }
 
-.menu .item1, .menu .item2, .menu .item3 {
+.communities-menu .item1, .communities-menu .item2, .communities-menu .item3 {
     padding: 16px 30px;
     border-radius: 50px 0 0 50px;
     border-right: 1px solid #383A42;
 }
 
-.menu .item1:hover, .menu .item2:hover, .menu .item3:hover {
+.communities-menu .item1:hover, .communities-menu .item2:hover, .communities-menu .item3:hover {
     cursor: pointer;
 }
 
-.menu .item1:hover, .menu .item2:hover {
+.communities-menu .item1:hover, .communities-menu .item2:hover {
     background-color: #2B2F39;
 }
 
-.menu .item3 {
+.communities-menu .item3 {
     background-color: #393d4a;
 }
 
-.menu .fa-users {
+.communities-menu .fa-users {
     color: #FFFFFF;
 }
 
-.menu .fa-trophy, .menu .fa-ticket {
-    color: #95979C;
+.communities-menu .fa-trophy::before,
+.communities-menu .fa-ticket::before {
+  color: #95979C;
 }
 
 .communities-ul {
     list-style-type: none;
 }
 
-.content {
+.communities-content {
     margin-left: 40px;
     padding-top: 5px;
 }
 
-.content h1 {
+.communities-content h1 {
     font-family: 'Chakra Petch';
     font-size: 42px;
     color: #FFFFFF;
 }
 
-.content .diagonal-line {
+.communities-diagonal-line {
     border: 2px solid #F35F21;
-    width: 6%;
+    width: 5%;
 }
 
-.content h2 {
+.communities-content h2 {
     font-family: 'Chakra Petch';
     font-size: 35px;
     color: #FFFFFF;
 }
 
-.content input {
+.communities-input {
     display: block;
     color: #D8D8D8;
     padding: 14px 148px 14px 12px;
@@ -101,11 +102,11 @@ body {
     font-size: 14px;
 }
 
-.content input:focus {
+.communities-input:focus {
     outline: none;
 }
 
-.content .fa-magnifying-glass {
+.communities-content .fa-magnifying-glass::before {
     font-size: 17px;
     position: relative;
     bottom: 31px;
@@ -113,12 +114,12 @@ body {
     color: #95979C;
 }
 
-.row1, .row2 {
+.communities-row1, .communities-row2 {
     display: flex;
     padding-top: 25px;
 }
 
-.row2 {
+.communities-row2 {
     padding-bottom: 200px;
 }
 
@@ -184,7 +185,7 @@ body {
     font-weight: 500;
 }
 
-.community1 button, .community2 button, .community3 button, .community4 button {
+.community-view {
     padding: 12px 94px;
     border-radius: 50px;
     border: none;
@@ -192,10 +193,11 @@ body {
     font-weight: 600;
     font-size: 14px;
     background-color: #454D60;
-    margin-top: 40px;
+    position: relative;
+    top: 55px;
 }
 
-.community1 button:hover, .community2 button:hover, .community3 button:hover, .community4 button:hover {
+.community-view:hover, .community2 button:hover, .community3 button:hover, .community4 button:hover {
     cursor: pointer;
     background-color: #303542;
     border: 1px solid #2c303c;
