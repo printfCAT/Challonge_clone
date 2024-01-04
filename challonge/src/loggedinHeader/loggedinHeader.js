@@ -34,6 +34,12 @@ function LoggedinHeader() {
     setNotifications(updatedNotifications);
   };
 
+  const markAsReadAndRemoveNotification = (event, id) => {
+    event.stopPropagation();
+    markAsRead(id);
+    removeNotification(id);
+  };
+
   useEffect(() => {
     const handleOutsideClick = (event) => {
       if (
@@ -76,10 +82,7 @@ function LoggedinHeader() {
                         <li
                           key={notification.id}
                           className={notification.read ? 'read' : ''}
-                          onClick={() => {
-                            markAsRead(notification.id);
-                            removeNotification(notification.id);
-                          }}>
+                          onClick={(event) => markAsReadAndRemoveNotification(event, notification.id)}>
                           {notification.message}
                         </li>
                       ))}

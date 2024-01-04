@@ -18,7 +18,7 @@ import Tournaments from '../Tournaments/Tournaments';
 function App() {
   return (
     <Router>
-      <Loggedinheader />
+      <Header />
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
