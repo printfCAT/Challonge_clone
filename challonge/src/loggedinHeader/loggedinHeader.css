@@ -1,0 +1,141 @@
+body, header, footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .loggedin-App-header {
+    background-color: #272A33;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+    gap: 1125px;
+  }
+  
+  .loggedin-App-header ul {
+    list-style-type: none;
+  }
+
+.bell:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 2px 0 rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.05);
+}
+
+.bell {
+  height: 60px;
+  width: 42px;
+}
+
+.bell.active {
+  background-color: #1B1F28;
+}
+
+  .fa-bell {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .fa-bell::before {
+    color: #454D60;
+  }
+  
+  .loggedin-button-container {
+    display: flex;
+  }
+  
+  .loggedin-login-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .loggedin-button-container img {
+    margin-top: 7px;
+  }
+
+  .logged-logo:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0 rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.05);
+  }
+  
+  .logged-logo {
+    height: 60px;
+    width: 50px;
+  }
+
+  .logged-logo.active {
+    background-color: #1B1F28;
+  }
+
+  .space {
+    width: 50px;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    right: 155px;
+    bottom: 9px;
+    background-color: #1B1F28;
+    height: 100px;
+    width: 205px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .dropdown-item1, .dropdown-item2 {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-family: Inter;
+    font-size: 14px;
+    color: #777D8D;
+  }
+
+.loggedin-heading {
+  background-color: #232732;
+  height: 45px;
+}
+
+.loggedin-heading h3 {
+  font-family: Inter;
+  font-size: 14px;
+  color: #9098AE;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+  .notifications-bar {
+    position: relative;
+    right: 237.57px;
+    top: 5px;
+    background-color: #1B1F28;
+    width: 280px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .notifications-bar li {
+    font-family: Inter;
+    font-size: 14px;
+    color: #5F6472;
+    padding-bottom: 15px;
+    position: relative;
+    right: 25px;
+  }
+
+  .notifications-bar p {
+    font-family: Inter;
+    font-size: 14px;
+    color: #5F6472;
+    position: relative;
+    bottom: 7px;
+    left: 15px;
+  }

@@ -3,6 +3,7 @@ import About from '../About/About';
 import Comingsoon from '../Comingsoon/Comingsoon';
 import Communities from '../Communities/Communities';
 import Header from '../Header/Header';
+import Loggedinheader from '../loggedinHeader/loggedinHeader';
 import Dashboard from '../Dashboard/Dashboard';
 import Discover from '../Discover/Discover';
 import Events from '../Events/Events';
@@ -17,7 +18,7 @@ import Tournaments from '../Tournaments/Tournaments';
 function App() {
   return (
     <Router>
-      <Header />
+      <Loggedinheader />
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
