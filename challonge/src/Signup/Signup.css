@@ -144,15 +144,18 @@ body {
   font-weight: 700;
   font-size: 17px;
   cursor: pointer;
-}
-
-.signup-button {
   color: #FFFFFF;
+  transition: background-color 0.5s ease;
 }
 
 .signup-button:hover {
   background-color: #F05700;
 }
+
+.signup-button.inactive {
+    background-color: #A9A9A9;
+    cursor: not-allowed;
+  }
 
 .main-signup a {
     text-decoration: none;

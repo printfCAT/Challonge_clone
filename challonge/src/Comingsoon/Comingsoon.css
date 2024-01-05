@@ -3,7 +3,7 @@ body, header, footer {
     padding: 0;
 }
 
-body {
+.heading-body {
     background-color: #272A33;
 }
 

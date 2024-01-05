@@ -63,7 +63,7 @@ function LoggedinHeader() {
 
     return (
         <header className="loggedin-App-header">
-        <Link to='/'><img src={logo} alt="logo" /></Link>
+        <Link to='/mytournaments'><img src={logo} alt="logo" /></Link>
         <div className='loggedin-button-container'>
           <div className='loggedin-login-container'>
             <Link to='/tournaments'><i class="fa-solid fa-magnifying-glass"></i></Link>
@@ -95,7 +95,7 @@ function LoggedinHeader() {
               <img src={challongelogo} alt="challongelogo" />
               {menuVisible2 && (
                 <div className="dropdown-menu">
-                  <Link to='/' className="dropdown-item1"><p>Dashboard</p></Link>
+                  <Link to='/mytournaments' className="dropdown-item1"><p>Dashboard</p></Link>
                   <Link to='/logout' className="dropdown-item1"><p>Log out</p></Link>
                 </div>
               )}

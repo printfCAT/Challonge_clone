@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 import About from '../About/About';
 import Comingsoon from '../Comingsoon/Comingsoon';
 import Communities from '../Communities/Communities';
@@ -13,16 +14,19 @@ import Myevents from '../myEvents/myEvents';
 import Mytournaments from '../myTournaments/myTournaments';
 import Login from '../Login/Login';
 import Signup from '../Signup/Signup';
+import Signupsuccess from '../signupSuccess/signupSuccess';
 import Tournaments from '../Tournaments/Tournaments';
 
 function App() {
+  const [loggedin] = useState(false);
   return (
     <Router>
-      <Header />
+      {loggedin ? <Loggedinheader /> : <Header />}
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/signup-success" element={<Signupsuccess />} />
         <Route path="/about" element={<About />} />
         <Route path="/comingsoon" element={<Comingsoon />} />
         <Route path="/communities" element={<Communities />} />

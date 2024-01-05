@@ -98,9 +98,14 @@ body {
   font-size: 17px;
   cursor: pointer;
   color: #FFFFFF;
-  text-decoration: none;
+  transition: background-color 0.5s ease;
 }
 
 .login-button:hover {
   background-color: #F05700;
+}
+
+.login-button.inactive {
+  background-color: #A9A9A9;
+  cursor: not-allowed;
 }

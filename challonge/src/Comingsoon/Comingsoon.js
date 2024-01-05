@@ -2,7 +2,7 @@ import './Comingsoon.css';
 
 function Comingsoon() {
     return (
-        <><body>
+        <><body className="heading-body">
         <div className="heading">
             <div className="comingsoon-diagonal-line"></div>
             <h1>COMING SOON!</h1>
