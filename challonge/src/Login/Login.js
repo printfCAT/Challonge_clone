@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { LoggedinContext } from '../App/App';
 import './Login.css';
 
 function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [setLoggedin] = useState(false);
+    const { setLoggedin } = useContext(LoggedinContext);
 
     const handleUsernameChange = (event) => {
         setUsername(event.target.value);
@@ -20,6 +21,7 @@ function Login() {
         if (username.trim() !== '' && password.trim() !== '') {
             // Redirect to "/tournaments"
             setLoggedin(true);
+            console.log("setLoggedin set to true");
             window.location.href = '/mytournaments';
         } else {
             // Display an error message or handle incomplete fields as needed

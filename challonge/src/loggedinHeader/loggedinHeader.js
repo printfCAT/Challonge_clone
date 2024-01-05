@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { LoggedinContext } from '../App/App';
 import logo from '../assets/challonge-logo.png';
 import challongelogo from '../assets/challonge-logo2.png';
 import './loggedinHeader.css';
@@ -7,6 +8,7 @@ import './loggedinHeader.css';
 function LoggedinHeader() {
   const [menuVisible1, setMenuVisible1] = useState(false);
   const [menuVisible2, setMenuVisible2] = useState(false);
+  const { setLoggedin } = useContext(LoggedinContext);
 
   const toggleNotifications = () => {
     setMenuVisible1(!menuVisible1);
@@ -61,6 +63,11 @@ function LoggedinHeader() {
     };
   }, []);
 
+  const handleLogout = () => {
+    setLoggedin(false);
+    localStorage.removeItem('loggedin');
+  }
+
     return (
         <header className="loggedin-App-header">
         <Link to='/mytournaments'><img src={logo} alt="logo" /></Link>
@@ -96,7 +103,7 @@ function LoggedinHeader() {
               {menuVisible2 && (
                 <div className="dropdown-menu">
                   <Link to='/mytournaments' className="dropdown-item1"><p>Dashboard</p></Link>
-                  <Link to='/logout' className="dropdown-item1"><p>Log out</p></Link>
+                  <Link to='/' className="dropdown-item1" onClick={handleLogout}><p>Log out</p></Link>
                 </div>
               )}
             </div>
