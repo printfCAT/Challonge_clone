@@ -20,9 +20,9 @@ function Communities() {
         <div className="main-community">
             <div className="communities-menu">
                 <ul className="communities-ul">
-                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/Challonge_clone/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/Challonge_clone/events"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/Challonge_clone/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
             <div className="communities-content">
@@ -44,7 +44,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>14 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community2">
@@ -58,7 +58,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>4 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community3">
@@ -72,7 +72,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>42 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community4">
@@ -86,7 +86,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>0 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                   </div>
@@ -102,7 +102,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>2 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community2">
@@ -116,7 +116,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>3 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community3">
@@ -130,7 +130,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>4 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                       <div className="community4">
@@ -144,7 +144,7 @@ function Communities() {
                           </li>
                           <li><i class="fa-solid fa-users"></i><span>42 followers</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
-                          <Link to="/comingsoon" className="community-view">View</Link>
+                          <Link to="/Challonge_clone/comingsoon" className="community-view">View</Link>
                         </ul>
                       </div>
                   </div>

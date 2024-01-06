@@ -7,7 +7,7 @@ function Signupsuccess() {
 
     useEffect(() => {
         const redirectTimeout = setTimeout(() => {
-            navigate('/login');
+            navigate('/Challonge_clone/login');
         }, 3000);
 
         return () => clearTimeout(redirectTimeout);

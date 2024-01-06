@@ -38,15 +38,15 @@ function Dashboard() {
           <h1>Simplify Tournament Management</h1>
           <p>Thank you ALX Africa for allowing me to learn. ALX has produced more than <br /><b><span id="graduateCount">80000</span></b> graduates since 2021.</p>
           <div className="buttons">
-            <Link to="/comingsoon" className='Tournament'>Create Tournament</Link>
-            <Link to="/comingsoon" className='bracket'>Try Our Bracket Generator</Link>
+            <Link to="/Challonge_clone/comingsoon" className='Tournament'>Create Tournament</Link>
+            <Link to="/Challonge_clone/comingsoon" className='bracket'>Try Our Bracket Generator</Link>
           </div>
           <img className="dashboard-img" src={bracket} alt="bracket" />
         </div>
         <div className='communities'>
           <h1>Challonge Communities</h1>
           <p>Host multiple tournaments, leagues and events for your loyal members.</p>
-          <Link to="/about" className='learn-more'>Learn more</Link>
+          <Link to="/Challonge_clone/about" className='learn-more'>Learn more</Link>
         </div>
         <div className='game-settings'>
           <h1>Enjoy your game, we'll handle the <br />rest</h1>
@@ -118,7 +118,7 @@ function Dashboard() {
           <div className="conclusion">
             <h1>Providing the right tools for the <br />gaming community</h1>
             <p>I aim to keep things simple, but there's plenty more to explore <br />on my challonge clone project.</p>
-            <Link to="/signup" className="signup">Sign Up Free</Link>
+            <Link to="/Challonge_clone/signup" className="signup">Sign Up Free</Link>
           </div>
         </div>
       </body></>

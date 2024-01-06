@@ -30,19 +30,19 @@ function App() {
       <Router>
         {loggedin ? <Loggedinheader /> : <Header />}
         <Routes>
-          <Route exact path="/" element={<Dashboard />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/signup-success" element={<Signupsuccess />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/comingsoon" element={<Comingsoon />} />
-          <Route path="/communities" element={<Communities />} />
-          <Route path="/discover" element={<Discover />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/mycommunities" element={<Mycommunities />} />
-          <Route path="/myevents" element={<Myevents />} />
-          <Route path="/mytournaments" element={<Mytournaments />} />
-          <Route path="/tournaments" element={<Tournaments />} />
+          <Route exact path="/Challonge_clone" element={<Dashboard />} />
+          <Route path="/Challonge_clone/login" element={<Login />} />
+          <Route path="/Challonge_clone/signup" element={<Signup />} />
+          <Route path="/Challonge_clone/signup-success" element={<Signupsuccess />} />
+          <Route path="/Challonge_clone/about" element={<About />} />
+          <Route path="/Challonge_clone/comingsoon" element={<Comingsoon />} />
+          <Route path="/Challonge_clone/communities" element={<Communities />} />
+          <Route path="/Challonge_clone/discover" element={<Discover />} />
+          <Route path="/Challonge_clone/events" element={<Events />} />
+          <Route path="/Challonge_clone/mycommunities" element={<Mycommunities />} />
+          <Route path="/Challonge_clone/myevents" element={<Myevents />} />
+          <Route path="/Challonge_clone/mytournaments" element={<Mytournaments />} />
+          <Route path="/Challonge_clone/tournaments" element={<Tournaments />} />
         </Routes>
         <Footer />
       </Router>

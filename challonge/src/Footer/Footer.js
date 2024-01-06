@@ -6,15 +6,15 @@ function Footer() {
     return (
         <><footer>
         <div className='column1'>
-          <Link to='/'><img src={logo} alt="logo" /></Link>
+          <Link to='/Challonge_clone'><img src={logo} alt="logo" /></Link>
           <p>&copy; 2023 Challonge, LLC</p>
         </div>
         <div className='column2'>
           <h5>EXPLORE</h5>
-          <Link to='/tournaments'><p>Search Tournaments</p></Link>
-          <Link to='/comingsoon'><p>Bracket Generator</p></Link>
-          <Link to='/comingsoon'><p>Features</p></Link>
-          <Link to='/comingsoon'><p>About</p></Link>
+          <Link to='/Challonge_clone/tournaments'><p>Search Tournaments</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>Bracket Generator</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>Features</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>About</p></Link>
         </div>
         <div className='column3'>
           <h5>RESOURCES</h5>
@@ -29,9 +29,9 @@ function Footer() {
             <a href='https://twitter.com/CliffManyo' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-twitter"></i></a>
             <a href='https://www.youtube.com/@CliffManyo' target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-youtube"></i></a>
           </div>
-          <Link to='/comingsoon'><p>Partners</p></Link>
-          <Link to='/comingsoon'><p>Contact</p></Link>
-          <Link to='/comingsoon'><p>Blog</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>Partners</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>Contact</p></Link>
+          <Link to='/Challonge_clone/comingsoon'><p>Blog</p></Link>
         </div>
       </footer></>
     )
