@@ -37,7 +37,7 @@ function Signup() {
             agreeChecked
         ) {
             // Redirect or perform signup process
-            window.location.href = '/Challonge_clone/signup-success'; // Replace this with your desired redirection or signup logic
+            window.location.href = '/signup-success'; // Replace this with your desired redirection or signup logic
         } else {
             // Display an error message or handle incomplete fields as needed
         }

@@ -22,8 +22,8 @@ function About() {
             <div className="about-intro">
                 <h1>Play Together With Challonge <br />Communities</h1>
                 <p>Co-Host, Organize, and Promote your tournaments, leagues, and events all <br />from one place. Challonge Communities allow you to mobilize participants for <br />frequent competitions. Get started for free.</p>
-                <Link to="/Challonge_clone/comingsoon" className="start">Start a new community for free</Link>
-                <Link to="/Challonge_clone/communities" className="find">Find a community</Link>
+                <Link to="/comingsoon" className="start">Start a new community for free</Link>
+                <Link to="/communities" className="find">Find a community</Link>
             </div>
             <div className="floating-section">
                 <div className="plan">
@@ -139,7 +139,7 @@ function About() {
                         <p>Got any questions? Feel free to<span className="about-span"> reach us out!</span></p>
                     </div>
                     <div>
-                        <Link to="/Challonge_clone/comingsoon" className="try-button">Try it for free</Link>
+                        <Link to="/comingsoon" className="try-button">Try it for free</Link>
                     </div>
                 </div>
             </div>

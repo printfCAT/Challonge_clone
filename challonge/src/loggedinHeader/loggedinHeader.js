@@ -20,8 +20,8 @@ function LoggedinHeader() {
   };
 
   const [notifications, setNotifications] = useState([
-    { id: 1, message: 'Notification 1', read: false },
-    { id: 2, message: 'Notification 2', read: false },
+    { id: 1, message: 'Your match is starting soon!', read: false },
+    { id: 2, message: 'Please confirm membership status', read: false },
   ]);
 
   const markAsRead = (id) => {
@@ -70,10 +70,10 @@ function LoggedinHeader() {
 
     return (
         <header className="loggedin-App-header">
-        <Link to='/Challonge_clone/mytournaments'><img src={logo} alt="logo" /></Link>
+        <Link to='/mytournaments'><img src={logo} alt="logo" /></Link>
         <div className='loggedin-button-container'>
           <div className='loggedin-login-container'>
-            <Link to='/Challonge_clone/tournaments'><i class="fa-solid fa-magnifying-glass"></i></Link>
+            <Link to='/tournaments'><i class="fa-solid fa-magnifying-glass"></i></Link>
             <div className={`bell ${menuVisible1 ? 'active' : ''}`} onClick={toggleNotifications}>
               <i class="fa-solid fa-bell"></i>
               {menuVisible1 && (
@@ -102,7 +102,7 @@ function LoggedinHeader() {
               <img src={challongelogo} alt="challongelogo" />
               {menuVisible2 && (
                 <div className="dropdown-menu">
-                  <Link to='/Challonge_clone/mytournaments' className="dropdown-item1"><p>Dashboard</p></Link>
+                  <Link to='/mytournaments' className="dropdown-item1"><p>Dashboard</p></Link>
                   <Link to='/Challonge_clone' className="dropdown-item1" onClick={handleLogout}><p>Log out</p></Link>
                 </div>
               )}

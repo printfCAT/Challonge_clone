@@ -23,9 +23,9 @@ function Tournaments() {
         <div className="main-tournament">
             <div className="tournaments-menu">
                 <ul className="tournaments-ul">
-                    <li className="item1"><Link to="/Challonge_clone/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/Challonge_clone/events"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/Challonge_clone/communities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
             <div className="tournaments-content">
@@ -49,7 +49,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>12 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game2">
@@ -65,7 +65,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>6 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 3, 2024</span></li>
                                 <p>Created at December 23, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game3">
@@ -81,7 +81,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>53 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 31, 2023</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game4">
@@ -97,7 +97,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>0 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>July 20, 2023</span></li>
                                 <p>Created at July 20, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>4 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 1, 2023</span></li>
                                 <p>Created at October 13, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game2">
@@ -131,7 +131,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>3 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 12, 2023</span></li>
                                 <p>Created at December 10, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game3">
@@ -147,7 +147,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>20 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>December 30, 2023</span></li>
                                 <p>Created at December 20, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                         <div className="game4">
@@ -163,7 +163,7 @@ function Tournaments() {
                                 <li><i class="fa-solid fa-users"></i><span>10 participants</span></li>
                                 <li><i class="fa-solid fa-calendar"></i><span>January 9, 2024</span></li>
                                 <p>Created at December 29, 2023</p>
-                                <Link to="/Challonge_clone/comingsoon" className="tournaments-view">View</Link>
+                                <Link to="/comingsoon" className="tournaments-view">View</Link>
                             </ul>
                         </div>
                     </div>

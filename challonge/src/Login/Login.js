@@ -22,7 +22,7 @@ function Login() {
             // Redirect to "/tournaments"
             setLoggedin(true);
             console.log("setLoggedin set to true");
-            window.location.href = '/Challonge_clone/mytournaments';
+            window.location.href = '/mytournaments';
         } else {
             // Display an error message or handle incomplete fields as needed
         }
@@ -41,7 +41,7 @@ function Login() {
             <div className="remember-checkbox">
               <input type="checkbox" id="remember" name="remember" />
               <label htmlFor="remember">Remember on this device</label>
-              <Link to='/Challonge_clone/comingsoon'>Forgot password</Link>
+              <Link to='/comingsoon'>Forgot password</Link>
             </div>
             <div className='login-diagonal-line'></div>
             <input type="submit" className={`login-button ${username.trim() === '' || password.trim() === '' ? 'inactive' : ''}`} value="Log in" onClick={handleSubmit} />

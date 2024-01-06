@@ -26,19 +26,19 @@ function Discover() {
         <div className="main-discovery">
             <div className="discover-menu">
             <ul>
-                    <li className="item1"><Link to="/Challonge_clone/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/Challonge_clone/myevents"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/Challonge_clone/mycommunities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/mytournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/myevents"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/mycommunities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
                 <div className="discover-diagonal-line1"></div>
                 <ul>
-                    <li className="item4"><Link to="/Challonge_clone/discover"><i class="fa-solid fa-compass"></i></Link></li>
+                    <li className="item4"><Link to="/discover"><i class="fa-solid fa-compass"></i></Link></li>
                 </ul>
             </div>
             <div className="discover-content">
               <h2>Featured Pro Communities</h2>
               <div className="featured">
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={orange} alt="orange" />
                     <div className="community-info">
@@ -52,7 +52,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={blue} alt="blue" />
                     <div className="community-info">
@@ -66,7 +66,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={green} alt="green" />
                     <div className="community-info">
@@ -83,7 +83,7 @@ function Discover() {
               </div>
               <h2>Communities with Tournaments This Week</h2>
               <div className="with-tournaments">
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={oce} alt="oce" />
                     <div className="community-info">
@@ -97,7 +97,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={grl} alt="grl" />
                     <div className="community-info">
@@ -111,7 +111,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={wc} alt="wc" />
                     <div className="community-info">
@@ -128,7 +128,7 @@ function Discover() {
               </div>
               <h2>Trending Communities</h2>
               <div className="trending">
-              <Link to="/Challonge_clone/comingsoon">
+              <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={gamesiga} alt="gamesiga" />
                     <div className="community-info">
@@ -142,7 +142,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={highcouncil} alt="highcouncil" />
                     <div className="community-info">
@@ -156,7 +156,7 @@ function Discover() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/Challonge_clone/comingsoon">
+                <Link to="/comingsoon">
                   <div className="discover-community1">
                     <img src={outkast} alt="outkast" />
                     <div className="community-info">

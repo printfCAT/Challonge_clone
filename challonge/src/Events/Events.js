@@ -22,9 +22,9 @@ function Events() {
         <div className="main-event">
             <div className="events-menu">
             <ul className="events-ul">
-                    <li className="item1"><Link to="/Challonge_clone/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
-                    <li className="item2"><Link to="/Challonge_clone/events"><i class="fa-solid fa-ticket"></i></Link></li>
-                    <li className="item3"><Link to="/Challonge_clone/communities"><i class="fa-solid fa-users"></i></Link></li>
+                    <li className="item1"><Link to="/tournaments"><i class="fa-solid fa-trophy"></i></Link></li>
+                    <li className="item2"><Link to="/events"><i class="fa-solid fa-ticket"></i></Link></li>
+                    <li className="item3"><Link to="/communities"><i class="fa-solid fa-users"></i></Link></li>
                 </ul>
             </div>
             <div className="events-content">
@@ -47,7 +47,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - January 1, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>My house</span></li>
                           <li><i class="fa-solid fa-users"></i><span>7 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event2">
@@ -62,7 +62,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - March 9, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>3 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event3">
@@ -77,7 +77,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - December 29, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>0 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event4">
@@ -92,7 +92,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 30, 2023 - January 17, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Himalayas</span></li>
                           <li><i class="fa-solid fa-users"></i><span>4 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                   </div>
@@ -109,7 +109,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 28, 2023 - December 28, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>This is an online event</span></li>
                           <li><i class="fa-solid fa-users"></i><span>2 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event2">
@@ -124,7 +124,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 28, 2023 - December 29, 2023</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Location not specified</span></li>
                           <li><i class="fa-solid fa-users"></i><span>5 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event3">
@@ -139,7 +139,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>December 29, 2023 - December 29, 2026</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>Waiblingen, DE</span></li>
                           <li><i class="fa-solid fa-users"></i><span>1 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                       <div className="event4">
@@ -154,7 +154,7 @@ function Events() {
                           <li><i class="fa-solid fa-calendar"></i><span>January 26, 2024 - January 26, 2024</span></li>
                           <li><i class="fa-solid fa-location-dot"></i><span>This is an online event</span></li>
                           <li><i class="fa-solid fa-users"></i><span>348 attendees</span></li>
-                          <Link to="/Challonge_clone/comingsoon" className="events-view">View</Link>
+                          <Link to="/comingsoon" className="events-view">View</Link>
                         </ul>
                       </div>
                   </div>
