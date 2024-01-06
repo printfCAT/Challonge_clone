@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Signup.css';
 
 function Signup() {
@@ -7,6 +8,7 @@ function Signup() {
     const [password, setPassword] = useState('');
     const [passwordConfirmation, setPasswordConfirmation] = useState('');
     const [agreeChecked, setAgreeChecked] = useState(false);
+    const navigate = useNavigate();
 
     const handleUsernameChange = (event) => {
         setUsername(event.target.value);
@@ -37,7 +39,7 @@ function Signup() {
             agreeChecked
         ) {
             // Redirect or perform signup process
-            window.location.href = '/signup-success'; // Replace this with your desired redirection or signup logic
+            navigate('/signup-success'); // Replace this with your desired redirection or signup logic
         } else {
             // Display an error message or handle incomplete fields as needed
         }
