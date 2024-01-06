@@ -21,7 +21,6 @@ function Login() {
         if (username.trim() !== '' && password.trim() !== '') {
             // Redirect to "/tournaments"
             setLoggedin(true);
-            console.log("setLoggedin set to true");
             window.location.href = '/mytournaments';
         } else {
             // Display an error message or handle incomplete fields as needed
