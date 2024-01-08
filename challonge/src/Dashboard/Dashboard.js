@@ -113,7 +113,7 @@ function Dashboard() {
         </div>
         <div className="overview">
           <div className="embed">
-            <iframe title="Challonge Overview" width="988" height="557" src="https://www.youtube.com/embed/iYz7p6Ic-yE" frameborder="0" allowfullscreen></iframe>
+          <iframe width="988" height="557" src="https://www.youtube.com/embed/NZ2SfuOaKDk?si=LJfczgRri_FfQe5A" title="Challonge Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div className="conclusion">
             <h1>Providing the right tools for the <br />gaming community</h1>
