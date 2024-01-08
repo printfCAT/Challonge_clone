@@ -1,3 +1,1 @@
-<p align="center">
-  <img src="/challonge/src/assets/challonge clone logo.png" alt="Challonge clone logo" />
-</p>
+<h1 align="center"><img src="/challonge/src/assets/challonge clone logo.png" alt="Challonge clone logo" /></h1>
