@@ -45,19 +45,20 @@ To explore and interact with this project, follow the setup instructions below:
 1. __Clone the Repository:__ Start by forking and cloning this repository to your local machine.
 2. __Installation:__ Follow the following steps for installation:
 __BEFORE__ you follow the steps, make sure you are using a supported node version (version 10.2.1 or later). For instructions on how to install node, click [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
-...* cd into `challonge` directory and run the following command to install required dependencies:
+
+* cd into `challonge` directory and run the following command to install required dependencies:
 ```shell
 npm i
 ```
-...* Create a development build:
+* Create a development build:
 ```shell
 npm run build
 ```
-...* Start a development server:
+* Start a development server:
 ```shell
 npm run start
 ```
-...* Deploy build (make sure to change homepage in `package.json`):
+* Deploy build (make sure to change homepage in `package.json`):
 ```shell
 npm run deploy
 ```
